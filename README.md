@@ -3,7 +3,8 @@
 #### Technical Skills: Camera Trap, Biodiversity Management, Wildlife Rescue, Spatial Analysis
 
 ## Education					       		
-- Candidate of M.For., Forestry| The University of Mulawarman	        		
+- Candidate of P.h.D.,         |Forestry The University of Mulawarman (2025)
+- M.For., Forestry              |The University of Mulawarman	        		
 - B.For., Forestry             | The University of Mulawarman (2017)
 
 ## Work Experience
