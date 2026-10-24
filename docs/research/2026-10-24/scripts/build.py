@@ -73,7 +73,7 @@ def citation_year(item):
 
 def csv_file(path, records, fields):
     with path.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         for record in records:
             writer.writerow({key: "; ".join(record[key]) if isinstance(record.get(key), list)
@@ -225,7 +225,7 @@ def write_ris(library):
         if r["volume"]:lines.append("VL  - " + str(r["volume"]))
         if r["issue"]:lines.append("IS  - " + str(r["issue"]))
         lines += ["KW  - " + TOPICS[t] for t in r["topics"]]
-        lines += ["N1  - Assessment: " + r["assessment_level"], "ER  - ", ""]
+        lines += ["N1  - Assessment: " + r["assessment_level"], "ER  -", ""]
     (OUT / "library.ris").write_text("\n".join(lines))
 
 
@@ -308,6 +308,7 @@ def write_pdf():
 
 def main():
     OUT.mkdir(exist_ok=True)
+    (OUT/'.gitattributes').write_text('*.pdf binary\n')
     library,selected=build_library()
     (OUT/'literature.json').write_text(json.dumps(library,ensure_ascii=False,indent=2))
     csv_file(OUT/'literature.csv',library,['id','title','authors','year','first_publication_date','publication_date_basis','journal','doi','url','topics','focus_tags','assessment_level','reading_question','crossref_type','metadata_verified_utc','crossref_api_url','crossref_record_sha256','open_access_index_status'])
