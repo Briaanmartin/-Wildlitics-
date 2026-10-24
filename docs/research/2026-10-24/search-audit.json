@@ -1,0 +1,386 @@
+[
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap deep learning",
+    "returned": 60,
+    "total_found": 19429,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+deep+learning&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap transfer learning",
+    "returned": 60,
+    "total_found": 15176,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+transfer+learning&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap species classification",
+    "returned": 60,
+    "total_found": 17875,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+species+classification&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap self supervised",
+    "returned": 60,
+    "total_found": 13099,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+self+supervised&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap foundation models",
+    "returned": 60,
+    "total_found": 45334,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+foundation+models&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap vision transformer",
+    "returned": 60,
+    "total_found": 1667,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+vision+transformer&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap fine tuning",
+    "returned": 60,
+    "total_found": 11081,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+fine+tuning&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap semi supervised",
+    "returned": 60,
+    "total_found": 7696,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+semi+supervised&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap active learning",
+    "returned": 60,
+    "total_found": 17038,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+active+learning&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap domain adaptation",
+    "returned": 60,
+    "total_found": 8192,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+domain+adaptation&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap few shot learning",
+    "returned": 60,
+    "total_found": 3308,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+few+shot+learning&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap ensemble learning",
+    "returned": 60,
+    "total_found": 3468,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+ensemble+learning&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap synthetic data augmentation",
+    "returned": 60,
+    "total_found": 1119,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+synthetic+data+augmentation&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap continual learning",
+    "returned": 60,
+    "total_found": 2994,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+continual+learning&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "camera trap feature extraction",
+    "returned": 60,
+    "total_found": 13250,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+feature+extraction&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap activity overlap",
+    "returned": 60,
+    "total_found": 25003,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+activity+overlap&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap occupancy detection probability",
+    "returned": 60,
+    "total_found": 3944,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+occupancy+detection+probability&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "model_enhancement",
+    "query": "wildlife image classification deep learning",
+    "returned": 60,
+    "total_found": 11838,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=wildlife+image+classification+deep+learning&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap density random encounter",
+    "returned": 60,
+    "total_found": 8793,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+density+random+encounter&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap data management software",
+    "returned": 60,
+    "total_found": 23725,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+data+management+software&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap species richness sampling",
+    "returned": 60,
+    "total_found": 7639,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+species+richness+sampling&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap spatial capture recapture",
+    "returned": 60,
+    "total_found": 3782,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+spatial+capture+recapture&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap detection rate abundance",
+    "returned": 60,
+    "total_found": 16004,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+detection+rate+abundance&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap false positive occupancy",
+    "returned": 60,
+    "total_found": 1360,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+false+positive+occupancy&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap sampling design effort",
+    "returned": 60,
+    "total_found": 25296,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+sampling+design+effort&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap independent events",
+    "returned": 60,
+    "total_found": 32689,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+independent+events&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap biodiversity community monitoring",
+    "returned": 60,
+    "total_found": 11753,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+biodiversity+community+monitoring&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap circular activity estimation",
+    "returned": 60,
+    "total_found": 3470,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+circular+activity+estimation&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap metadata data standard",
+    "returned": 60,
+    "total_found": 2120,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+metadata+data+standard&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "occupancy models imperfect detection",
+    "returned": 60,
+    "total_found": 8092,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=occupancy+models+imperfect+detection&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "species richness sample coverage rarefaction",
+    "returned": 60,
+    "total_found": 10025,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=species+richness+sample+coverage+rarefaction&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap animal detection",
+    "returned": 60,
+    "total_found": 29537,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+animal+detection&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "species_analysis",
+    "query": "camera trap distance sampling",
+    "returned": 60,
+    "total_found": 54044,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+distance+sampling&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap object detection",
+    "returned": 60,
+    "total_found": 18282,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+object+detection&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap small animals",
+    "returned": 60,
+    "total_found": 47355,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+small+animals&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap classification accuracy generalization",
+    "returned": 60,
+    "total_found": 2490,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+classification+accuracy+generalization&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap confidence calibration",
+    "returned": 60,
+    "total_found": 4096,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+confidence+calibration&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap class imbalance",
+    "returned": 60,
+    "total_found": 3623,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+class+imbalance&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap uncertainty classification",
+    "returned": 60,
+    "total_found": 6813,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+uncertainty+classification&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap misclassification",
+    "returned": 60,
+    "total_found": 1330,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+misclassification&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap false positive",
+    "returned": 60,
+    "total_found": 13132,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+false+positive&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap image sequences classification",
+    "returned": 60,
+    "total_found": 10852,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+image+sequences+classification&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap human expert validation",
+    "returned": 60,
+    "total_found": 8128,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+human+expert+validation&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap empty images",
+    "returned": 60,
+    "total_found": 13710,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+empty+images&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap label noise",
+    "returned": 60,
+    "total_found": 12339,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+label+noise&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap out of distribution",
+    "returned": 60,
+    "total_found": 75308,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+out+of+distribution&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap open set recognition",
+    "returned": 60,
+    "total_found": 16406,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+open+set+recognition&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  },
+  {
+    "topic": "detection_accuracy_confusion",
+    "query": "camera trap evaluation deep learning",
+    "returned": 60,
+    "total_found": 15630,
+    "error": null,
+    "request": "https://api.openalex.org/works?search=camera+trap+evaluation+deep+learning&filter=type%3Aarticle%2Cprimary_location.source.type%3Ajournal%2Cis_retracted%3Afalse%2Cto_publication_date%3A2026-10-24&per-page=60&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Cprimary_location%2Ctype%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cis_retracted%2Copen_access"
+  }
+]

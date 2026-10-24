@@ -1,0 +1,36 @@
+{
+  "cutoff": "2026-10-24",
+  "unique_journal_articles": 200,
+  "topic_counts": {
+    "model_enhancement": 100,
+    "species_analysis": 100,
+    "detection_accuracy_confusion": 100
+  },
+  "total_topic_placements": 300,
+  "priority_source_assessments": 28,
+  "community_items": 10,
+  "additional_technical_references": 11,
+  "crossref_metadata_checks_passed": 200,
+  "duplicates_by_doi": 0,
+  "duplicates_by_normalised_title": 0,
+  "future_publications": 0,
+  "all_papers_read_full_text": false,
+  "systematic_review": false,
+  "field_accuracy_measured": false,
+  "application_code_changed": false,
+  "html_browser_checks": {
+    "passed": true,
+    "all_records": 200,
+    "topic_filter_counts": [
+      100,
+      100,
+      100
+    ],
+    "priority_filter_count": 28,
+    "search": true,
+    "javascript_errors": 0
+  },
+  "pdf_pages": 11,
+  "pdf_external_links": 56,
+  "ris_entries": 200
+}
