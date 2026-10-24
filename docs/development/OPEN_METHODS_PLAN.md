@@ -17,8 +17,9 @@ The standalone open-method prototype built in the development session is separat
 - EXIF-oriented, metadata-stripped prepared images while source files remain unchanged.
 - Local-video sampling through FFmpeg, with actual selected-frame timestamps and integrity-checked reuse of completed jobs.
 - Tests using generated images and real synthetic-video decoding, plus a GitHub Actions workflow.
+- A model-free SpeciesNet review importer supporting legacy image-level results and output format `20261015`, preserving per-box associations and raw decision evidence.
 
-See [experimental/data-tools](../../experimental/data-tools/README.md) for commands and the precise input contract. None of these helpers runs a detector, trains a model or assigns species automatically.
+See [experimental/data-tools](../../experimental/data-tools/README.md) for commands and the precise input contract. These helpers do not run inference, train models or accept species labels automatically.
 
 ## What each source contributes
 
@@ -30,6 +31,7 @@ See [experimental/data-tools](../../experimental/data-tools/README.md) for comma
 | [WILDLABS .NET/FFmpeg/MegaDetector discussion](https://wildlabs.net/en/discussion/automating-wildlife-monitoring-net-ffmpeg-and-megadetector) | Sample video frames, detect animals, retain timestamps, background jobs and recovery | Add a local-video intake module first. Sampling intervals and detector thresholds are configurable and require recall testing. The article's reported speedup is not a Wildlitics benchmark. |
 | [USFWS AI-for-Species](https://github.com/USFWS/AI-for-Species) | Annotation conversions; contextual crops; detector/classifier separation; training/evaluation; deployment formats; sliced inference | Use compatible data formats, comparative crop tests, per-class metrics and optional deployment optimisation. Treat project-specific scripts and local model paths as references, not a ready-made Borneo model. |
 | [Wild Animals Species Detection demo](https://github.com/Konda-coder/Wild-Animals-Species-Detection-Using-AI-Techniques-) | Simple upload/capture flow, prediction display and CSV history | Use interface ideas only. Do not replace specialist identification with an unvalidated generic ImageNet classifier, filter top-k into a false absence claim, or call model scores measured accuracy. |
+| [Google SpeciesNet](https://github.com/google/cameratrapai), [2024 paper](https://doi.org/10.1049/cvi2.12318), [official announcement](https://blog.google/outreach-initiatives/entrepreneurs/ai-nature-climate-accelerator-nonprofits-speciesnet/) | Detector/crop classification; per-object results; geographic filtering; taxonomic rollup; recoverable runs | Extend the existing integration with explicit schema handling, raw/processed decision provenance and crop-level review. Do not assign legacy image predictions to individual animals. See [SpeciesNet assessment](SPECIESNET.md). |
 
 The source register provides machine-readable links and licence observations: [source-registry.json](source-registry.json).
 
@@ -46,6 +48,8 @@ The source register provides machine-readable links and licence observations: [s
 9. Generate reproducible analyses and reports from reviewed records and explicit survey metadata.
 
 Detector confidence, classifier probability and cosine similarity remain separate fields. A locally restricted species list must not force an identity. Missing detections, failed processing, unresolved species and reviewed absence are distinct states.
+
+SpeciesNet package 5.0.6 uses per-detection output format `20261015`, while the documented Wildlitics package 5.0.5 has image-level predictions. The experimental importer supports both without inventing object associations. Package/model upgrades and direct database integration still require validation with the real application source.
 
 ## Development order and acceptance criteria
 
@@ -101,6 +105,7 @@ Kunci's [training guide](https://kunci.biodiversitas.id/panduan/en/latih-ai.html
 ### 5. Improve review and data quality
 
 - Show model version, crop association, candidate names and reference-photo credits.
+- Show SpeciesNet's raw candidates separately from its geographically filtered/rolled-up class and decision source. Preserve whole-image results as whole-image results.
 - Provide filters for unresolved/conflicting predictions and missing metadata.
 - Preserve raw predictions when users correct labels.
 - Record reviewer, timestamp and reason for a change.
@@ -140,6 +145,7 @@ The additions in this change are original implementations of common annotation f
 - Pustaka/Kunci are product/workflow references; their application code, player, assets and sample orchid data are not included.
 - The DavidBolduc and Konda-coder repositories had no explicit licence in the inspected snapshots; do not assume permission to copy their code.
 - USFWS declares CC0 for its repository, but acknowledges third-party sources. Dependencies and individual borrowed components retain their own terms.
+- Google's SpeciesNet repository declares Apache-2.0 for its code. Preserve team attribution and check selected weights/dependencies separately; the new review importer contains no upstream implementation or model weights.
 - DINOv2 is Apache-2.0; BioCLIP 2 and FAISS are MIT; GLM-OCR weights are MIT; Qwen2.5-14B-Instruct is Apache-2.0. Confirm the selected versions and preserve upstream notices when distributing.
 - The original SAM2 implementation is an optional annotation aid; no SAM2 code/model is bundled here.
 - Ultralytics has AGPL/Enterprise licensing options. It is not a mandatory dependency of these helpers and is not automatically introduced into Wildlitics.

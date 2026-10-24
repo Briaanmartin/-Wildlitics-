@@ -11,6 +11,7 @@ Original, independent helpers for preparing reviewed wildlife datasets and sampl
 - Checks for unverified rows, duplicate/conflicting boxes, identical images crossing groups and declared encounters crossing groups.
 - EXIF-oriented prepared image copies; source files remain unchanged.
 - FFmpeg sampling with actual selected-frame PTS and integrity-checked reuse of completed jobs.
+- Import SpeciesNet predictions into explicit, unverified review records across its older and current JSON schemas.
 
 No detector, classifier, training job, account login or cloud upload is run by these helpers. No model weights or third-party application source are bundled.
 
@@ -86,18 +87,32 @@ Running the same completed job with the same source hash and interval reuses it 
 
 Sampling can miss brief appearances. No animal detector is run by this command, no source video is deleted, and an unselected frame is not evidence of ecological absence. Feed reviewed/extracted frames into the existing detector separately.
 
+## Import SpeciesNet results for review
+
+```bash
+python experimental/data-tools/speciesnet_review.py --input predictions.json --output review-v1.json
+```
+
+This accepts SpeciesNet `run_model` JSON, not MegaDetector's `images` JSON. It supports legacy image-level predictions documented by package 5.0.5 and the explicitly versioned `info.format_version: "20261015"` format documented by package 5.0.6. Unknown versions and mixed schemas are rejected.
+
+Each detection keeps its own box, raw candidates, processed suggestion and decision source. Broad taxa and geographic filtering/rollup are flagged. Category `0` stays a whole-image classification, with its placeholder confidence separate from detector confidence. Legacy image-level suggestions stay in `image_classification` and are never copied to individual boxes.
+
+Output is local JSON containing the original records, source JSON hash, model versions, review flags and a processing summary. The importer does not access images or rerun any models. Every suggestion remains unverified; no score threshold accepts labels or produces training annotations. Missing detections, an explicitly empty detection list and failed processing remain distinct; none establishes animal absence. Existing output files are refused.
+
+Scientific-name fields retain upstream spelling/case and are not GBIF-validated. Raw records may contain local paths and coordinates: review the output before sharing it. Direct Wildlitics database integration remains future work. See the [SpeciesNet assessment](../../docs/development/SPECIESNET.md).
+
 ## Tests
 
 ```bash
 python -m unittest discover -s experimental/data-tools/tests -v
 ```
 
-Tests use generated images and an actual two-second synthetic video decoded with FFmpeg. They check all three coordinate formats, multiple species, background examples, group integrity, metadata/orientation handling, original-file preservation, frame timestamps and completed-job reuse. These are software tests, not wildlife accuracy or runtime benchmarks.
+Tests use generated images, an actual two-second synthetic video decoded with FFmpeg, and synthetic SpeciesNet JSON. They check coordinate formats, multiple species, background examples, group integrity, metadata/orientation, source preservation, video timestamps/reuse, SpeciesNet schema migration and classification scope. These are software tests, not wildlife accuracy or runtime benchmarks.
 
 A GitHub Actions workflow runs the checks on Python 3.12/Linux. Windows and application-database/job-queue integration still need testing.
 
 ## Source decisions and future work
 
-The [development plan](../../docs/development/OPEN_METHODS_PLAN.md) records all six sources supplied by the developer and the subsequent training, review, document and deployment work.
+The [development plan](../../docs/development/OPEN_METHODS_PLAN.md) records the supplied sources and subsequent training, review, document and deployment work.
 
 These helpers use generic format definitions and FFmpeg invocation, implemented independently. They do not copy code from Pustaka, Kunci or the unlicensed demonstration repositories. They do not select or change the licence of the existing Wildlitics application. Source photographs and external packages retain their own terms.

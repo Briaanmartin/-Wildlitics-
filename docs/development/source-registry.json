@@ -77,6 +77,59 @@
         "labelling model scores as measured accuracy"
       ],
       "license_observation": "No explicit repository licence found in inspected root."
+    },
+    {
+      "id": "google_speciesnet",
+      "url": "https://github.com/google/cameratrapai",
+      "inspected_commit": "b9aa454d2f31ee74d71c3b162f4ba6c834e93322",
+      "adopt": [
+        "explicit legacy/per-detection output migration",
+        "per-object classification association",
+        "raw/processed prediction provenance",
+        "geographic filtering and taxonomic rank review",
+        "reuse saved detections"
+      ],
+      "avoid": [
+        "assigning legacy image predictions to every detection",
+        "treating whole-image placeholder confidence as detector certainty",
+        "assuming package upgrades imply measured accuracy gains"
+      ],
+      "license_observation": "Apache-2.0 repository code; check selected model weights and dependencies separately. No upstream implementation bundled."
+    },
+    {
+      "id": "speciesnet_paper_2024",
+      "url": "https://doi.org/10.1049/cvi2.12318",
+      "title": "To crop or not to crop: Comparing whole-image and cropped classification on a large dataset of camera trap images",
+      "authors": [
+        "Tomer Gadot",
+        "Ștefan Istrate",
+        "Hyungwon Kim",
+        "Dan Morris",
+        "Sara Beery",
+        "Tanya Birch",
+        "Jorge Ahumada"
+      ],
+      "adopt": [
+        "crop versus whole-image comparison on matched holdouts",
+        "macro/per-class evaluation"
+      ],
+      "avoid": [
+        "transferring published improvement percentages to Wildlitics",
+        "claiming the paper evaluated multi-species images"
+      ]
+    },
+    {
+      "id": "speciesnet_announcement",
+      "url": "https://blog.google/outreach-initiatives/entrepreneurs/ai-nature-climate-accelerator-nonprofits-speciesnet/",
+      "published_date": "2025-03-03",
+      "adopt": [
+        "official release context",
+        "team attribution"
+      ],
+      "avoid": [
+        "using announcement as a local accuracy benchmark",
+        "attributing quoted authorship claims without verification"
+      ]
     }
   ],
   "foundations": [
