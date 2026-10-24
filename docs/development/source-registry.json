@@ -1,0 +1,119 @@
+{
+  "reviewed_date": "2026-10-24",
+  "purpose": "Persistent reference decisions for independent Wildlitics development; no application integration or field-performance claim.",
+  "sources": [
+    {
+      "id": "pustaka",
+      "url": "https://pustaka.biodiversitas.id/en/",
+      "adopt": [
+        "local-first projects",
+        "provenance",
+        "data-quality reporting",
+        "evidence-backed OCR/table workflow"
+      ],
+      "reuse": "Product reference only; no commercial-app code/assets included."
+    },
+    {
+      "id": "kunci",
+      "url": "https://kunci.biodiversitas.id/en/",
+      "adopt": [
+        "labelled photo datasets",
+        "backbone comparison",
+        "evaluation and calibration",
+        "deployment workflow"
+      ],
+      "reuse": "Use public research and original upstream foundations; no commercial player or orchid model copied."
+    },
+    {
+      "id": "images_to_yolo",
+      "url": "https://github.com/DavidBolduc/From_images_to_YOLO_pipeline",
+      "adopt": [
+        "assisted annotation",
+        "manual review gates",
+        "training dataset export"
+      ],
+      "avoid": [
+        "single-class-per-image assumptions",
+        "image-level holdout splitting"
+      ],
+      "license_observation": "No explicit repository licence found in inspected tree."
+    },
+    {
+      "id": "wildlabs_video",
+      "url": "https://wildlabs.net/en/discussion/automating-wildlife-monitoring-net-ffmpeg-and-megadetector",
+      "adopt": [
+        "video-frame sampling",
+        "source timestamps",
+        "background-job recovery"
+      ],
+      "avoid": [
+        "assuming a fixed sampling interval/threshold is universally valid",
+        "treating reported speedup as a Wildlitics benchmark"
+      ],
+      "reuse": "Discussion is a method reference; no code repository was linked in the post."
+    },
+    {
+      "id": "usfws",
+      "url": "https://github.com/USFWS/AI-for-Species",
+      "adopt": [
+        "annotation conversions",
+        "context crops",
+        "classifier evaluation",
+        "deployment comparison"
+      ],
+      "license_observation": "CC0 repository licence; third-party components retain their own terms."
+    },
+    {
+      "id": "konda_demo",
+      "url": "https://github.com/Konda-coder/Wild-Animals-Species-Detection-Using-AI-Techniques-",
+      "adopt": [
+        "simple image input",
+        "prediction display",
+        "CSV history"
+      ],
+      "avoid": [
+        "generic ImageNet models as unvalidated species replacements",
+        "top-k filtering as evidence of animal absence",
+        "labelling model scores as measured accuracy"
+      ],
+      "license_observation": "No explicit repository licence found in inspected root."
+    }
+  ],
+  "foundations": [
+    {
+      "name": "DINOv2",
+      "url": "https://github.com/facebookresearch/dinov2",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "BioCLIP 2",
+      "url": "https://huggingface.co/imageomics/bioclip-2",
+      "license": "MIT"
+    },
+    {
+      "name": "FAISS",
+      "url": "https://github.com/facebookresearch/faiss",
+      "license": "MIT"
+    },
+    {
+      "name": "GLM-OCR weights",
+      "url": "https://huggingface.co/zai-org/GLM-OCR",
+      "license": "MIT"
+    },
+    {
+      "name": "Qwen2.5-14B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "GBIF species API",
+      "url": "https://techdocs.gbif.org/en/openapi/v1/species",
+      "note": "Public name-matching service; cached suggestions do not replace reviewed field labels."
+    },
+    {
+      "name": "FFmpeg",
+      "url": "https://ffmpeg.org/legal.html",
+      "note": "Build-dependent LGPL/GPL; external executable, not bundled."
+    }
+  ]
+}
