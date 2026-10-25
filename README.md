@@ -4,11 +4,13 @@
 
 Wildlitics adalah aplikasi desktop Windows untuk membantu pengelolaan foto kamera trap, identifikasi satwa berbantuan AI, koreksi manusia, analisis biodiversitas, dan penyusunan laporan. Aplikasi dikembangkan oleh **Brian Martin** dengan memanfaatkan model dan pustaka pihak ketiga yang memperoleh kredit terpisah.
 
-Dokumentasi aplikasi ini menjelaskan prototipe **2.3.3 Activity Diagrams**, dengan model SpeciesNet dan BioCLIP 2. Repositori ini juga memuat perangkat bantu eksperimen dan kajian riset untuk pengembangan berikutnya. Kode sumber aplikasi desktop, installer, bobot model, dan data penelitian pengguna tidak tersedia di sini. Mengunduh atau melakukan clone repositori ini tidak memasang aplikasi.
+Dokumentasi aplikasi asli ini menjelaskan prototipe **2.3.3 Activity Diagrams**, dengan model SpeciesNet dan BioCLIP 2. Repositori ini juga memuat prototipe desktop baru yang independen, perangkat bantu eksperimen, dan kajian riset. Kode sumber aplikasi asli versi 2.3.3, bobot model, dan data penelitian pengguna tidak tersedia di sini. Mengunduh atau melakukan clone repositori ini tidak memasang aplikasi.
 
 ## Pengembangan dan riset
 
-Pekerjaan eksperimen dan kajian riset kini tersedia bersama pada cabang pengembangan. Fitur eksperimen belum terintegrasi ke aplikasi desktop.
+Pekerjaan eksperimen dan kajian riset kini tersedia bersama pada cabang pengembangan. Prototipe desktop baru dikembangkan secara terpisah; aplikasi asli versi 2.3.3 belum diperbarui dari cabang ini.
+
+[Wildlitics Desktop 0.1.0](desktop/README.md) adalah implementasi baru dengan sumber tersedia: impor banyak kamera, inferensi lokal SpeciesNet, review per objek, dan ekspor PDF/HTML/CSV. Prototipe ini memakai cascade resmi SpeciesNet dengan detektor MegaDetector v5a, berbeda dari konfigurasi MDV6 aplikasi asli yang didokumentasikan di bawah.
 
 - [Panduan pengembangan gabungan dan status pekerjaan](docs/development/README.md).
 - [Rencana pengembangan berdasarkan bukti riset](docs/development/OPEN_METHODS_PLAN.md).

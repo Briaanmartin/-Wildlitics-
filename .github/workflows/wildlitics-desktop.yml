@@ -1,0 +1,59 @@
+name: Wildlitics desktop
+
+on:
+  pull_request:
+    paths:
+      - "desktop/**"
+      - ".github/workflows/wildlitics-desktop.yml"
+  push:
+    branches:
+      - "codex/wildlitics-desktop-20261025"
+    paths:
+      - "desktop/**"
+      - ".github/workflows/wildlitics-desktop.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  desktop:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    env:
+      QT_QPA_PLATFORM: offscreen
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the native interface and packaging tool
+        run: python -m pip install -e desktop pyinstaller==6.22.3
+      - name: Test camera imports, review, cancellation and native UI
+        run: python -m unittest discover -s desktop/tests -v
+      - name: Build the Windows portable application
+        if: runner.os == 'Windows'
+        run: python desktop/scripts/build_desktop.py
+      - name: Test the packaged Windows executable
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $resultPath = Join-Path $env:RUNNER_TEMP "wildlitics-packaged-check.json"
+          $process = Start-Process -FilePath "desktop/dist/Wildlitics/Wildlitics.exe" -ArgumentList @("--self-test", $resultPath) -Wait -PassThru
+          if ($process.ExitCode -ne 0) { throw "Packaged self-check failed with exit code $($process.ExitCode)" }
+          $result = Get-Content $resultPath -Raw | ConvertFrom-Json
+          if (-not $result.passed) { throw "Packaged self-check did not pass" }
+          Get-Content $resultPath
+          Copy-Item $resultPath "desktop/dist/Wildlitics/packaged-validation.json"
+      - name: Upload the Windows portable application
+        if: runner.os == 'Windows'
+        uses: actions/upload-artifact@v4
+        with:
+          name: Wildlitics-Windows-x64
+          path: desktop/dist/Wildlitics/
+          if-no-files-found: error
+          retention-days: 30

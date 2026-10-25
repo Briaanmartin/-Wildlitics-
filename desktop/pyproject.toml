@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wildlitics-desktop"
+version = "0.1.0"
+description = "Local wildlife AI, multi-camera review and survey reports"
+requires-python = ">=3.10,<3.15"
+dependencies = ["PySide6-Essentials==6.12.0", "Pillow>=10,<13"]
+
+[project.scripts]
+wildlitics-desktop = "wildlitics_desktop.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

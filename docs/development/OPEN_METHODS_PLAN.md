@@ -4,7 +4,7 @@ Updated 25 October 2026 after combining the experimental helpers and the 24 Octo
 
 ## Scope and current status
 
-The public Wildlitics repository documents a Windows application using MegaDetector, SpeciesNet and BioCLIP 2. This development branch contains independent experimental helpers and the research library. It does not contain the desktop application source or trained private models, and combining these materials does not update the installed application.
+The public Wildlitics repository documents the original Windows application using MegaDetector, SpeciesNet and BioCLIP 2. This development branch contains independent experimental helpers, the research library and a [new native desktop prototype](../../desktop/README.md). The original 2.3.3 source and trained private models remain absent; the new prototype is a separate implementation.
 
 The standalone open-method prototype built in the development session is separate from this repository. It includes BioCLIP 2/FAISS retrieval, a DINOv2 encoder option, GBIF caching, and local GLM-OCR/Qwen adapters. Its last completed software test run passed 76 tests; real DINOv2 and GBIF online/offline checks completed. Real GLM-OCR/Qwen validation and the updated prototype package remain pending after execution-environment interruptions. Those results are not a field-accuracy benchmark, and the separate prototype code is not bundled in this PR.
 
@@ -18,6 +18,7 @@ The standalone open-method prototype built in the development session is separat
 - Local-video sampling through FFmpeg, with actual selected-frame timestamps and integrity-checked reuse of completed jobs.
 - Tests using generated images and real synthetic-video decoding, plus a GitHub Actions workflow.
 - A model-free SpeciesNet review importer supporting legacy image-level results and output format `20261015`, preserving per-box associations and raw decision evidence.
+- A separate native desktop prototype with local multi-camera projects, a cancellable official SpeciesNet CLI worker, saved-job resume, per-object human review and descriptive PDF/HTML/CSV reports. Its standard upstream detector is MDv5a; the original application's MDV6/BioCLIP model policy has not been migrated.
 
 See [experimental/data-tools](../../experimental/data-tools/README.md) for commands and the precise input contract. These helpers do not run inference, train models or accept species labels automatically.
 
@@ -67,7 +68,7 @@ Acceptance requires a versioned benchmark and auditable survey inputs. Software 
 
 ### 2. P1: integrate the existing dataset, video and review helpers
 
-The helpers in this branch are the starting implementation. Direct application integration requires the real desktop source and tested database/job-queue adapters.
+The helpers and new desktop source are the starting implementation. The new desktop connects camera intake, an official SpeciesNet subprocess and reviewed records in SQLite; integration into the original 2.3.3 application still requires its real source and database/job-queue adapters.
 
 - Verify every export box against its oriented image.
 - Include multiple species/objects from a frame and explicitly reviewed background frames.

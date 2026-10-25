@@ -6,14 +6,15 @@ Combined 25 October 2026 on `codex/wildlitics-development-20261024`. [PR #1](htt
 
 | Material | Location | Status |
 |---|---|---|
-| Current application documentation | [Repository README](../../README.md) | Documents desktop prototype 2.3.3; desktop source and installer are absent |
+| Original application documentation | [Repository README](../../README.md) | Documents prototype 2.3.3; that original desktop source and installer are absent |
+| New native desktop prototype | [Desktop 0.1.0](../../desktop/README.md) | Independent implementation: multi-camera projects, official local SpeciesNet inference, review history and descriptive PDF/HTML/CSV reports; original 2.3.3 source remains absent |
 | Experimental data tools | [Commands and input formats](../../experimental/data-tools/README.md) | Implemented: reviewed annotation exports, grouped splits, timestamped video sampling and SpeciesNet review import |
 | Unified development plan | [OPEN_METHODS_PLAN.md](OPEN_METHODS_PLAN.md) | Current implementation priorities and acceptance criteria |
 | Research package | [Research index](../research/2026-10-24/README.md) and [PDF review](../research/2026-10-24/Wildlitics-research-review.pdf) | Dated 24 October 2026; 200 unique journal articles, 100 entries per topic, 28 priority assessments |
 | Evidence and caveats | [KEY_EVIDENCE.md](../research/2026-10-24/KEY_EVIDENCE.md) and [methodology](../research/2026-10-24/METHODOLOGY.md) | Findings are distinguished from proposals; metadata screening is distinguished from closer source assessment |
 | SpeciesNet compatibility | [SPECIESNET.md](SPECIESNET.md) | Legacy image-level and `20261015` per-detection output handled without inventing object associations |
 
-The research folder remains an unchanged snapshot with its original checksums. The unified plan is the current work queue; publication dates and historical implementation statements in the research report describe the 24 October review.
+The research folder remains an unchanged snapshot with its original checksums. The unified plan is the current work queue; publication dates and historical implementation statements in the research report describe the 24 October review. The new desktop source is separate from the original application described by that snapshot.
 
 ## How the two work streams connect
 

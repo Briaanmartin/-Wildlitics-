@@ -1,0 +1,49 @@
+{
+  "desktop_version": "0.1.0",
+  "date_utc": "2026-10-25",
+  "status": "independent native prototype",
+  "software_tests": {
+    "command": "python -m unittest discover -s desktop/tests -v",
+    "passed": 20,
+    "failed": 0,
+    "native_offscreen_ui_and_pdf": true,
+    "silent_subprocess_cancellation": true,
+    "more_than_two_cameras": true
+  },
+  "real_ai_gui_workflow": {
+    "passed": true,
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "elapsed_inference_and_probe_seconds": 18.99,
+    "registered_synthetic_camera_folders": 3,
+    "distinct_source_photos": 1,
+    "source_photo_sha256": "5f26feffa8daf05a48389d384f4c3b3845d51dd17e7f1492c3df9d904b5bb178",
+    "images_processed": 3,
+    "observations": 3,
+    "all_predictions_initially_unverified": true,
+    "verified_by_explicit_review_action": 1,
+    "camera_count_preserved_after_review_filter": 3,
+    "original_unchanged": true,
+    "predicted_taxa": [
+      "priodontes maximus"
+    ],
+    "model": "kaggle:google/speciesnet/pyTorch/v4.0.3a/1",
+    "speciesnet_package": "5.0.6",
+    "default_detector": "MegaDetector v5a",
+    "field_accuracy_measured": false,
+    "source_photo_redistributed_with_application": false,
+    "limitation": "A single caller-provided photo repeated across three synthetic camera folders; inference success does not measure wildlife accuracy."
+  },
+  "source_photo": {
+    "url": "https://github.com/google/cameratrapai/blob/b9aa454d2f31ee74d71c3b162f4ba6c834e93322/images/sample_image_oct.jpg",
+    "credit": "University of Minnesota / Orinoquia Camera Traps; source credited by upstream SpeciesNet README",
+    "bundled_with_application": false
+  },
+  "platform_limits": {
+    "real_model_inference_tested_on": "Linux CPU",
+    "windows_packaging_and_gui_validation": "Performed by .github/workflows/wildlitics-desktop.yml",
+    "windows_real_model_inference_tested": false
+  },
+  "original_wildlitics_233_updated": false,
+  "field_accuracy_measured": false,
+  "bundled_ai_weights": false
+}
