@@ -1,9 +1,27 @@
 """Descriptive reports from project records; no generated ecological conclusions."""
 import csv
+import base64
 from datetime import datetime, timezone
 import html
+from io import BytesIO
 import json
 from pathlib import Path
+
+from PIL import Image,ImageDraw
+
+
+def activity_chart(hours):
+    image=Image.new('RGB',(900,240),'#f5f8f1');draw=ImageDraw.Draw(image)
+    maximum=max(hours) or 1
+    for hour,count in enumerate(hours):
+        x=45+hour*34;height=int(count/maximum*160)
+        if count:draw.rounded_rectangle((x,190-height,x+23,190),radius=3,fill='#5d8860')
+        if hour%3==0:draw.text((x,203),f'{hour:02}:00',fill='#425e48')
+    draw.line((40,191,870,191),fill='#adc0a7')
+    draw.text((42,17),'Observed encounter hours (camera-local EXIF time)',fill='#23432c')
+    if not any(hours):draw.text((250,100),'No eligible timed records',fill='#6f7f6b')
+    output=BytesIO();image.save(output,format='PNG')
+    return 'data:image/png;base64,'+base64.b64encode(output.getvalue()).decode('ascii')
 
 
 def report_html(project, *, camera_id=None, gap_minutes=30, verified_only=True):
@@ -22,7 +40,7 @@ def report_html(project, *, camera_id=None, gap_minutes=30, verified_only=True):
 <p>Observation policy: {'human-verified only' if verified_only else 'includes unverified AI suggestions'} · Encounter gap: {gap_minutes} minutes.</p>
 <h2>Cameras and processing coverage</h2><table><tr><th>Camera</th><th>Images</th><th>Labelled observations</th><th>Declared deployment days</th><th>Processing</th></tr>{cameras}</table>
 <h2>Taxon/category records</h2><p>Names are recorded labels and are not automatically validated species identities.</p><table><tr><th>Label</th><th>Observations</th><th>Encounters with capture time</th></tr>{taxa}</table>
-<h2>Descriptive encounter hours</h2><p>Original camera-local EXIF times; missing or incorrect camera clocks require separate review.</p><table><tr><th>Hour</th><th>Encounters</th></tr>{bars}</table>
+<h2>Descriptive encounter hours</h2><p>Original camera-local EXIF times; missing or incorrect camera clocks require separate review.</p><img src="{activity_chart(data['activity_hours'])}" width="780" alt="Observed encounter-hour histogram"><table><tr><th>Hour</th><th>Encounters</th></tr>{bars}</table>
 <h2>Method and limitations</h2><p>{esc(data['method'])}</p><p>Observations missing capture time: {data['observations_missing_capture_time']}. Missing times are excluded from encounter/hour counts. No animal detections is a processing result, not evidence of ecological absence. Scores are model outputs, not measured accuracy.</p>
 <h2>Filters and processing states</h2><pre>{esc(json.dumps({'filters':data['filters'],'processing_states':data['processing_states'],'review_states':data['review_states']},indent=2))}</pre>
 <h2>Model runs</h2><pre>{esc(json.dumps([{'id':r['id'],'status':r['status'],'created_utc':r['created_utc'],'parameters':{key:value for key,value in json.loads(r['parameters']).items() if key in {'country','threshold','model','source_sha256','expected_speciesnet_package'}}}for r in project.runs()],indent=2))}</pre>

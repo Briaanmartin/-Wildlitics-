@@ -41,7 +41,7 @@
   "platform_limits": {
     "real_model_inference_tested_on": "Linux CPU",
     "windows_packaging_and_gui_validation": "Performed by .github/workflows/wildlitics-desktop.yml",
-    "windows_real_model_inference_tested": false
+    "windows_real_model_inference_result": "See real-ai-validation.json emitted into a successful Windows artifact by the CI workflow"
   },
   "original_wildlitics_233_updated": false,
   "field_accuracy_measured": false,

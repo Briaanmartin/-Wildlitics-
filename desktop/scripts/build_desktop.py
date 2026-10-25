@@ -17,6 +17,8 @@ def main():
     (target/'scripts').mkdir(exist_ok=True)
     shutil.copyfile(ROOT/'scripts'/'setup_ai.py',target/'scripts'/'setup_ai.py')
     shutil.copytree(ROOT/'LICENSES',target/'LICENSES',dirs_exist_ok=True)
+    python_license=Path(sys.base_prefix)/'LICENSE.txt'
+    if python_license.is_file():shutil.copyfile(python_license,target/'LICENSES'/'Python-LICENSE.txt')
     # Preserve any further licence files carried by the installed wheels.
     for name in ['PySide6-Essentials','shiboken6','Pillow']:
         dist=distribution(name)

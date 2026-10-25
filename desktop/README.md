@@ -87,4 +87,4 @@ python -m pip install pyinstaller==6.22.3
 python desktop/scripts/build_desktop.py
 ```
 
-The build uses dynamic Qt libraries in a replaceable one-folder layout and preserves third-party notices. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The Windows build is a portable prototype, not a signed production installer. CI tests both the source and the packaged GUI; separate AI installation/inference is validated independently.
+The build uses dynamic Qt libraries in a replaceable one-folder layout and preserves third-party notices. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The Windows build is a portable prototype, not a signed production installer. CI tests the source and packaged GUI, then installs a separate CPU AI environment and exercises real model inference on an upstream public sample. A successful Windows artifact includes `packaged-validation.json` and `real-ai-validation.json`; the sample photograph and AI environment are excluded from that artifact.

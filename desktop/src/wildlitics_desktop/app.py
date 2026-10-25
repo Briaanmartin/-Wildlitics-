@@ -12,7 +12,7 @@ from PySide6.QtCore import Qt, QThread, Signal, QUrl
 from PySide6.QtGui import QColor, QDesktopServices, QFont, QImageReader, QPainter, QPen, QPdfWriter, QTextDocument
 from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QDoubleSpinBox, QFileDialog,
     QFrame, QGridLayout, QHBoxLayout, QHeaderView, QInputDialog, QLabel, QLineEdit, QMainWindow,
-    QMessageBox, QPlainTextEdit, QPushButton, QSizePolicy, QSplitter, QStackedWidget,
+    QMessageBox, QPlainTextEdit, QPushButton, QScrollArea, QSizePolicy, QSplitter, QStackedWidget,
     QTableWidget, QTableWidgetItem, QTextBrowser, QVBoxLayout, QWidget)
 
 from . import __version__
@@ -81,7 +81,7 @@ def fill(widget, rows):
     widget.setRowCount(len(rows))
     for r, values in enumerate(rows):
         for c, value in enumerate(values):
-            widget.setItem(r,c,QTableWidgetItem(str(value if value is not None else "—")))
+            item=QTableWidgetItem(str(value if value is not None else "—"));item.setToolTip(item.text());widget.setItem(r,c,item)
 
 
 class Work(QThread):
@@ -159,7 +159,7 @@ class MainWindow(QMainWindow):
     def __init__(self, project=None):
         super().__init__();self.project=None;self.worker=None;self.current_run=None;self.rows=[]
         self.setWindowTitle("Wildlitics Desktop · Local wildlife AI");self.resize(1440,940)
-        self.setMinimumSize(1060,760)
+        self.setMinimumSize(1060,680)
         central=QWidget();self.setCentralWidget(central);outer=QHBoxLayout(central);outer.setContentsMargins(0,0,0,0);outer.setSpacing(0)
         sidebar=QFrame();sidebar.setObjectName("sidebar");sidebar.setFixedWidth(215);nav=QVBoxLayout(sidebar);nav.setContentsMargins(18,27,18,22)
         nav.addWidget(label("Wildlitics", "brand"));nav.addWidget(label("FIELD DATA → INSIGHT"));nav.addSpacing(30)
@@ -226,6 +226,8 @@ class MainWindow(QMainWindow):
         page=QWidget();layout=QVBoxLayout(page);layout.setContentsMargins(0,0,0,0)
         layout.addWidget(label("Inspect and verify", "title"));layout.addWidget(label("Review one object at a time. Model score is not measured accuracy. The review queue includes unverified records regardless of the dashboard's verification filter.","subtitle",True))
         splitter=QSplitter();self.review_table=table(["Camera","Suggested label","Score","Review"]);self.review_table.itemSelectionChanged.connect(self.select_observation);splitter.addWidget(self.review_table)
+        for column in (0,2,3):self.review_table.horizontalHeader().setSectionResizeMode(column,QHeaderView.ResizeMode.ResizeToContents)
+        self.review_table.horizontalHeader().setSectionResizeMode(1,QHeaderView.ResizeMode.Stretch)
         panel=QWidget();right=QVBoxLayout(panel);right.setContentsMargins(12,0,0,0);self.photo=Photo();right.addWidget(self.photo,2)
         self.observation_details=label("Select a record.","subtitle",True);right.addWidget(self.observation_details)
         self.candidates=QPlainTextEdit();self.candidates.setReadOnly(True);self.candidates.setMaximumHeight(110);right.addWidget(self.candidates)
@@ -233,7 +235,7 @@ class MainWindow(QMainWindow):
         self.reviewer=QLineEdit();self.reviewer.setPlaceholderText("Reviewer name (required)");right.addWidget(self.reviewer)
         self.review_note=QLineEdit();self.review_note.setPlaceholderText("Review note (optional)");right.addWidget(self.review_note)
         actions=QHBoxLayout();actions.addWidget(button("Confirm label",lambda:self.review_record("verified"),True));actions.addWidget(button("Reject prediction",lambda:self.review_record("rejected")));right.addLayout(actions)
-        splitter.addWidget(panel);splitter.setSizes([550,550]);layout.addWidget(splitter,1);self.stack.addWidget(page)
+        scroll=QScrollArea();scroll.setWidgetResizable(True);scroll.setWidget(panel);splitter.addWidget(scroll);splitter.setSizes([550,550]);layout.addWidget(splitter,1);self.stack.addWidget(page)
 
     def make_reports(self):
         page=QWidget();layout=QVBoxLayout(page);layout.setContentsMargins(0,0,0,0)
@@ -526,7 +528,11 @@ def main():
     args=parser.parse_args()
     if args.demo:args.project=create_demo(args.demo)
     app=QApplication(sys.argv[:1]);app.setApplicationName('Wildlitics');app.setStyleSheet(STYLE)
-    window=MainWindow(args.project);window.show();return app.exec()
+    window=MainWindow(args.project)
+    if app.primaryScreen():
+        area=app.primaryScreen().availableGeometry()
+        window.resize(min(1440,max(1060,area.width()-40)),min(940,max(680,area.height()-50)))
+    window.show();return app.exec()
 
 
 if __name__=='__main__':
