@@ -1,0 +1,4 @@
+image_path,scientific_name,verified,verified_by,license,group_id,event_id,bbox_x,bbox_y,bbox_w,bbox_h,is_background
+photos/frame1.jpg,Helarctos malayanus,false,,user-owned,site-A,camera-A/event-1,0.1,0.2,0.5,0.6,false
+photos/frame1.jpg,Neofelis diardi,false,,user-owned,site-A,camera-A/event-1,0.65,0.2,0.2,0.5,false
+photos/background.jpg,,false,,user-owned,site-B,camera-B/event-2,,,,,true

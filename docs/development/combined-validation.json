@@ -1,0 +1,29 @@
+{
+  "date_utc": "2026-10-25",
+  "combined_review_pr": 1,
+  "source_pr_heads": {
+    "pr1": "b95026ae296147d16fa241c21b7f9bae0708e942",
+    "pr2": "d608601b7d636d527e60c31e65318efe21dce10c"
+  },
+  "both_source_histories_present": true,
+  "experimental_sources_unchanged_from_pr1": true,
+  "research_snapshot_unchanged_from_pr2": true,
+  "software_tests": {
+    "command": "python -m unittest discover -s experimental/data-tools/tests -v",
+    "passed": 39,
+    "failed": 0,
+    "real_ffmpeg_checks": true
+  },
+  "research_integrity": {
+    "checksums_passed": 27,
+    "unique_papers": 200,
+    "topic_counts": {
+      "model_enhancement": 100,
+      "species_analysis": 100,
+      "detection_accuracy_confusion": 100
+    }
+  },
+  "local_document_links_checked": 24,
+  "field_accuracy_measured": false,
+  "desktop_integration_performed": false
+}

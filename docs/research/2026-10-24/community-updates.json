@@ -1,0 +1,172 @@
+{
+  "items": [
+    {
+      "date": "2026-10-20",
+      "title": "Introducing Kaleidoscope BirdNET",
+      "source": "WILDLABS / Wildlife Acoustics",
+      "url": "https://wildlabs.net/en/article/introducing-kaleidoscoper-birdnet",
+      "evidence_type": "Vendor announcement",
+      "reported": "An integrated acoustic identification and review workflow.",
+      "wildlitics_action": "A useful future audio-review pattern: retain recording, alternatives and reviewer decisions. Check component licences and local species performance before an optional audio module.",
+      "priority": "Later; outside current photo scope"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "WILDLABS AWARDS 2026: AudioMoth Edge",
+      "source": "WILDLABS / Open Acoustic Devices",
+      "url": "https://wildlabs.net/en/article/wildlabs-awards-2026-audiomoth-edge",
+      "evidence_type": "Project-development announcement",
+      "reported": "A project developing hardware and software for on-device sound recognition.",
+      "wildlitics_action": "Track constrained-device requirements, but do not treat planned hardware as a completed camera-trap identification upgrade.",
+      "priority": "Watch"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Introducing DroneMegaDetector",
+      "source": "WILDLABS / model author",
+      "url": "https://wildlabs.net/en/article/introducing-dronemegadetector",
+      "evidence_type": "Preprint and author announcement; under review as stated in post",
+      "reported": "A drone-image detector with tiled inference, code and weights; a preprint is linked.",
+      "wildlitics_action": "Consider only for future aerial imagery. Benchmark camera-trap and aerial domains separately; do not substitute it for the terrestrial baseline.",
+      "priority": "Watch; adjacent domain"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "TwigaTools: an open intelligence hub",
+      "source": "WILDLABS / Giraffe Conservation Foundation",
+      "url": "https://wildlabs.net/en/article/twigatools-open-intelligence-hub-giraffe-conservation-and-other-wildlife",
+      "evidence_type": "Project announcement",
+      "reported": "No-code summaries and connectors layered over existing monitoring platforms, with connectivity and permissions considered.",
+      "wildlitics_action": "Use modular imports/exports and reproducible summaries; retain platform permissions and offline caches if connectors are added.",
+      "priority": "Useful architecture reference"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Speeding-up AI training",
+      "source": "WILDLABS / David Bolduc",
+      "url": "https://wildlabs.net/en/article/speeding-ai-training",
+      "evidence_type": "Author workflow report",
+      "reported": "Timelapse, MegaDetector and SAM2 help prepare YOLO training data. A comment dated 12 October points to Annotator-Pro.",
+      "wildlitics_action": "Extend assisted annotation after checking licences, preserve per-object labels and keep manual review and site grouping. The single-class-per-image assumption needs explicit rejection for mixed scenes.",
+      "priority": "Near-term annotation workflow"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Automating wildlife monitoring with .NET, FFmpeg and MegaDetector",
+      "source": "WILDLABS / workflow author",
+      "url": "https://wildlabs.net/en/discussion/automating-wildlife-monitoring-net-ffmpeg-and-megadetector",
+      "evidence_type": "Community workflow report",
+      "reported": "A live-camera intake and frame-sampling workflow with author-reported runtime improvements.",
+      "wildlitics_action": "Use timestamped local video intake, recoverable jobs and sampling-recall evaluation. No local speed claim can be transferred from this post.",
+      "priority": "Near-term video intake"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Wildlens",
+      "source": "WILDLABS / project author",
+      "url": "https://wildlabs.net/en/article/wildlens",
+      "evidence_type": "Personal-project report without independently assessed benchmark",
+      "reported": "The author reports a livestream species detector trained with iNaturalist imagery.",
+      "wildlitics_action": "Use as an example of an intake/demo flow; verify training-image domain, split design, class coverage and code availability before considering the model.",
+      "priority": "Low; evidence incomplete"
+    },
+    {
+      "date": "2026-01-28",
+      "title": "Machine Learning for Camera Trap Footage",
+      "source": "WILDLABS discussion / practitioners",
+      "url": "https://wildlabs.net/en/discussion/machine-learning-camera-trap-footage",
+      "evidence_type": "Practitioner discussion",
+      "reported": "Contributors distinguish blank filtering, species identification and individual re-identification, and emphasise review ergonomics.",
+      "wildlitics_action": "Measure reviewer time and correction burden, and make individual-ID a separately validated task.",
+      "priority": "High workflow relevance"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "SpeciesNet Studio: self-hosted review UI",
+      "source": "Microsoft Biodiversity GitHub discussion",
+      "url": "https://github.com/microsoft/Biodiversity/discussions/631",
+      "evidence_type": "Author software announcement",
+      "reported": "A contributor presents a self-hosted SpeciesNet review interface.",
+      "wildlitics_action": "Inspect review organisation and alternative-candidate presentation as product references; check code licence before reuse.",
+      "priority": "Review-interface reference"
+    },
+    {
+      "date": "2025-12-11",
+      "title": "SpeciesNet Bugs on Addax AI Windows",
+      "source": "AddaxAI community; discussion continued 18 December 2025",
+      "url": "https://forum.addaxai.com/t/speciesnet-bugs-on-addax-ai-windows/251",
+      "evidence_type": "User troubleshooting with maintainer replies",
+      "reported": "The thread discusses NumPy/PyTorch compatibility and a Windows process issue; the exact root cause was not established.",
+      "wildlitics_action": "Add Windows installation/inference/cancellation checks and pinned environment diagnostics. Do not prescribe a blanket NumPy downgrade from this anecdote.",
+      "priority": "High reliability relevance"
+    }
+  ],
+  "technical_references": [
+    {
+      "title": "CameraSweet official tools",
+      "url": "https://smallcats.org/camerasweet/",
+      "type": "Official software documentation",
+      "use": "Reference for clock corrections, camera groups, occupancy matrices and independent-picture counts; no application code was copied."
+    },
+    {
+      "title": "MegaDetector official documentation",
+      "url": "https://microsoft.github.io/MegaDetector/",
+      "type": "Official software documentation",
+      "use": "Check model variants, inference options, supported domains and version-specific licensing. Wildlitics already documents MDV6."
+    },
+    {
+      "title": "SpeciesNet official repository",
+      "url": "https://github.com/google/cameratrapai",
+      "type": "Official software documentation",
+      "use": "Check package/model identities, preprocessing, format migration and classifier-only reuse of saved detections."
+    },
+    {
+      "title": "Camtrap DP standard",
+      "url": "https://camtrap-dp.tdwg.org/",
+      "type": "Official data standard",
+      "use": "Pin a schema version and validate deployment, media and observation exports."
+    },
+    {
+      "title": "camtrapR CRAN package",
+      "url": "https://cran.r-project.org/package=camtrapR",
+      "type": "Official software release documentation",
+      "use": "Check current version and local R integration; code and analytical defaults require explicit version tracking."
+    },
+    {
+      "title": "Annotator-Pro",
+      "url": "https://github.com/ChaimElchik/Annotator-Pro",
+      "type": "Author repository; linked from WILDLABS comment",
+      "use": "Annotation UI and assistance reference. Assess actual licence and dependencies before reuse."
+    },
+    {
+      "title": "BioCLIP: A Vision Foundation Model for the Tree of Life",
+      "url": "https://github.com/Imageomics/bioclip",
+      "type": "CVPR 2024 conference paper and official implementation; not counted in journal quota",
+      "use": "A biological representation baseline; biological photos and camera-trap images have different distributions."
+    },
+    {
+      "title": "BioCLIP 2: Emergent Properties from Scaling Hierarchical Contrastive Learning",
+      "url": "https://imageomics.github.io/bioclip-2/",
+      "type": "NeurIPS 2025 conference paper; not counted in journal quota",
+      "use": "Supports the existing BioCLIP 2 feature option. Benchmark local identification and retrieval separately."
+    },
+    {
+      "title": "DINOv2 official implementation",
+      "url": "https://github.com/facebookresearch/dinov2",
+      "type": "Official model documentation; outside the DOI-verified journal quota",
+      "use": "Candidate encoder for a local classifier/retrieval comparison; its inclusion does not establish a local accuracy gain."
+    },
+    {
+      "title": "On Calibration of Modern Neural Networks",
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "type": "ICML 2017 conference paper; not counted in journal quota",
+      "use": "Foundation for post-hoc calibration, complemented here by a camera-trap-specific calibration paper."
+    },
+    {
+      "title": "Estimating species overlap: author resources",
+      "url": "https://martinridout.github.io/webfiles/overlap/overlap.html",
+      "type": "Author method/software documentation",
+      "use": "Reference implementation and interpretation for circular temporal overlap and uncertainty."
+    }
+  ]
+}

@@ -1,0 +1,4009 @@
+TY  - JOUR
+ID  - WL-FDF0ACE0
+TI  - AI and computer vision for wildlife identification in camera trap images: Fine-tuning SpeciesNet outperforms local models for species classification
+AU  - Prakash Palanivelu Rajmohan
+AU  - Renuka Sharma
+AU  - Zachary Amir
+AU  - Tom Bruce
+AU  - Barry W. Brook
+AU  - Dan Morris
+AU  - Matthew Scott Luskin
+PY  - 2026
+JO  - Science of The Total Environment
+DO  - 10.1016/j.scitotenv.2026.181926
+UR  - https://doi.org/10.1016/j.scitotenv.2026.181926
+VL  - 1042
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-A3F707CF
+TI  - Deep learning‐based ecological analysis of camera trap images is impacted by training data quality and quantity
+AU  - Peggy A. Bevan
+AU  - Omiros Pantazis
+AU  - Holly A.I. Pringle
+AU  - Guilherme Braga Ferreira
+AU  - Daniel J. Ingram
+AU  - Emily K. Madsen
+AU  - Liam Thomas
+AU  - Dol Raj Thanet
+AU  - Thakur Silwal
+AU  - Santosh Rayamajhi
+AU  - Gabriel J. Brostow
+AU  - Oisin Mac Aodha
+AU  - Kate E. Jones
+PY  - 2026
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.70052
+UR  - https://doi.org/10.1002/rse2.70052
+VL  - 12
+IS  - 3
+KW  - 1. Enhancing identification models
+KW  - 2. Species data analysis and workflows
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-394E631D
+TI  - Identification of camera trap images by artificial intelligence and human experts produces similar multi‐species occupancy models
+AU  - Daniel Thornton
+AU  - Dan Morris
+AU  - Travis King
+AU  - Lucy Perera‐Romero
+AU  - Alissa Anderson
+AU  - Rony Garcia‐Anleu
+AU  - Scott Fitkin
+AU  - Carly Vynne
+PY  - 2026
+JO  - Journal of Applied Ecology
+DO  - 10.1111/1365-2664.70370
+UR  - https://doi.org/10.1111/1365-2664.70370
+VL  - 63
+IS  - 5
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-7762A069
+TI  - Paying attention to other animal detections improves camera trap classification models
+AU  - Gaspard Dussert
+AU  - Stéphane Dray
+AU  - Simon Chamaillé‐Jammes
+AU  - Vincent Miele
+PY  - 2026
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.70260
+UR  - https://doi.org/10.1111/2041-210x.70260
+VL  - 17
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-A8F0B754
+TI  - The camtrapR R package: From data management to interactive ecological analysis of camera trap data
+AU  - Jürgen Niedballa
+AU  - Rahel Sollmann
+AU  - Alexandre Courtiol
+AU  - Nicolas J. Deere
+AU  - Matthew J. Struebig
+AU  - Andreas Wilting
+PY  - 2026
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.70409
+UR  - https://doi.org/10.1111/2041-210x.70409
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-CF95356C
+TI  - A protocol for error prevention and quality control in camera trap datasets
+AU  - Eduardo A. Silva‐Rodríguez
+AU  - Esteban I. Cortés
+AU  - Viviana Vasquez‐Ibarra
+AU  - Nicolás Gálvez
+AU  - Jeremy Cusack
+AU  - Omar Ohrens
+AU  - Darío Moreira‐Arce
+AU  - Ariel A. Farías
+AU  - José Infante‐Varela
+PY  - 2025
+JO  - Journal of Applied Ecology
+DO  - 10.1111/1365-2664.70010
+UR  - https://doi.org/10.1111/1365-2664.70010
+VL  - 62
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 2. Species data analysis and workflows
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-281E0D62
+TI  - An empirical assessment of the role of independence filters in temporal activity analyses using camera trapping data
+AU  - Kyle Smith
+PY  - 2025
+JO  - Behavioral Ecology and Sociobiology
+DO  - 10.1007/s00265-024-03544-6
+UR  - https://doi.org/10.1007/s00265-024-03544-6
+VL  - 79
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-77DE254B
+TI  - Being confident in confidence scores: calibration in deep learning models for camera trap image sequences
+AU  - Gaspard Dussert
+AU  - Simon Chamaillé‐Jammes
+AU  - Stéphane Dray
+AU  - Vincent Miele
+PY  - 2025
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.412
+UR  - https://doi.org/10.1002/rse2.412
+VL  - 11
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-3F457FA7
+TI  - Copy‐Paste Augmentation Improves Automatic Species Identification in Camera Trap Images
+AU  - Cédric S. Mesnage
+AU  - Andrew Corbett
+AU  - Jake Curry
+AU  - Sareh Rowlands
+AU  - Anjan Dutta
+AU  - Richard Everson
+AU  - Benno I. Simmons
+PY  - 2025
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.72357
+UR  - https://doi.org/10.1002/ece3.72357
+VL  - 15
+IS  - 11
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-BFA89701
+TI  - Essential tools but overlooked bias: Artificial intelligence and citizen science classification affect camera trap data
+AU  - Simone Santoro
+AU  - Santiago Gutiérrez‐Zapata
+AU  - Javier Calzada
+AU  - Nuria Selva
+AU  - Diego Marín‐Santos
+AU  - Sara Beery
+AU  - Kate Brandis
+AU  - Iñaki Fernández de Viana
+AU  - Paul Meek
+AU  - Alessio Mortelliti
+AU  - Eloy Revilla
+AU  - Jon Paul Rodríguez
+AU  - Lenka Straková
+AU  - Simone Tenan
+AU  - Manuel Emilio Gegúndez
+PY  - 2025
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.70132
+UR  - https://doi.org/10.1111/2041-210x.70132
+VL  - 16
+IS  - 11
+KW  - 1. Enhancing identification models
+KW  - 2. Species data analysis and workflows
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-208253C1
+TI  - Camtrap DP: an open standard for the FAIR exchange and archiving of camera trap data
+AU  - Jakub W. Bubnicki
+AU  - Ben Norton
+AU  - Steven J. Baskauf
+AU  - Tom Bruce
+AU  - Francesca Cagnacci
+AU  - Jim Casaer
+AU  - Marcin Churski
+AU  - Joris P. G. M. Cromsigt
+AU  - Simone Dal Farra
+AU  - Christian Fiderer
+AU  - Tavis D. Forrester
+AU  - Heidi Hendry
+AU  - Marco Heurich
+AU  - Tim R. Hofmeester
+AU  - Patrick A. Jansen
+AU  - Roland Kays
+AU  - Dries P. J. Kuijper
+AU  - Yorick Liefting
+AU  - John D. C. Linnell
+AU  - Matthew S. Luskin
+AU  - Christopher Mann
+AU  - Tanja Milotic
+AU  - Peggy Newman
+AU  - Jürgen Niedballa
+AU  - Damiano Oldoni
+AU  - Federico Ossi
+AU  - Tim Robertson
+AU  - Francesco Rovero
+AU  - Marcus Rowcliffe
+AU  - Lorenzo Seidenari
+AU  - Izabela Stachowicz
+AU  - Dan Stowell
+AU  - Mathias W. Tobler
+AU  - John Wieczorek
+AU  - Fridolin Zimmermann
+AU  - Peter Desmet
+PY  - 2024
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.374
+UR  - https://doi.org/10.1002/rse2.374
+VL  - 10
+IS  - 3
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-8FF00047
+TI  - Guidelines for estimating occupancy from autocorrelated camera trap detections
+AU  - Benjamin R. Goldstein
+AU  - Alex J. Jensen
+AU  - Roland Kays
+AU  - Michael V. Cove
+AU  - William J. McShea
+AU  - Brigit Rooney
+AU  - Elizabeth M. Kierepka
+AU  - Krishna Pacifici
+PY  - 2024
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.14359
+UR  - https://doi.org/10.1111/2041-210x.14359
+VL  - 15
+IS  - 7
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-5EF4203E
+TI  - To crop or not to crop: Comparing whole‐image and cropped classification on a large dataset of camera trap images
+AU  - Tomer Gadot
+AU  - Ștefan Istrate
+AU  - Hyungwon Kim
+AU  - Dan Morris
+AU  - Sara Beery
+AU  - Tanya Birch
+AU  - Jorge Ahumada
+PY  - 2024
+JO  - IET Computer Vision
+DO  - 10.1049/cvi2.12318
+UR  - https://doi.org/10.1049/cvi2.12318
+VL  - 18
+IS  - 8
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-FB903E00
+TI  - Can CNN‐based species classification generalise across variation in habitat within a camera trap survey?
+AU  - Danielle L. Norman
+AU  - Philipp H. Bischoff
+AU  - Oliver R. Wearn
+AU  - Robert M. Ewers
+AU  - J. Marcus Rowcliffe
+AU  - Benjamin Evans
+AU  - Sarab Sethi
+AU  - Philip M. Chapman
+AU  - Robin Freeman
+PY  - 2023
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.14031
+UR  - https://doi.org/10.1111/2041-210x.14031
+VL  - 14
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-330BB9BC
+TI  - The inappropriate use of time‐to‐independence biases estimates of activity patterns of free‐ranging mammals derived from camera traps
+AU  - Christopher Peral
+AU  - Marietjie Landman
+AU  - Graham I. H. Kerley
+PY  - 2022
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.9408
+UR  - https://doi.org/10.1002/ece3.9408
+VL  - 12
+IS  - 10
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-C2AEFA01
+TI  - A deep active learning system for species identification and counting in camera trap images
+AU  - Mohammad Sadegh Norouzzadeh
+AU  - Dan Morris
+AU  - Sara Beery
+AU  - Neel Joshi
+AU  - Nebojsa Jojic
+AU  - Jeff Clune
+PY  - 2021
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.13504
+UR  - https://doi.org/10.1111/2041-210x.13504
+VL  - 12
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-F075705F
+TI  - Robust ecological analysis of camera trap data labelled by a machine learning model
+AU  - Robin C. Whytock
+AU  - Jędrzej Świeżewski
+AU  - Joeri A. Zwerts
+AU  - Tadeusz Bara‐Słupski
+AU  - Aurélie Flore Koumba Pambo
+AU  - Marek Rogala
+AU  - Laila Bahaa‐el‐din
+AU  - Kelly Boekee
+AU  - Stephanie Brittain
+AU  - Anabelle W. Cardoso
+AU  - Philipp Henschel
+AU  - David Lehmann
+AU  - Brice Momboua
+AU  - Cisquet Kiebou Opepa
+AU  - Christopher Orbell
+AU  - Ross T. Pitman
+AU  - Hugh S. Robinson
+AU  - Katharine A. Abernethy
+PY  - 2021
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.13576
+UR  - https://doi.org/10.1111/2041-210x.13576
+VL  - 12
+IS  - 6
+KW  - 1. Enhancing identification models
+KW  - 2. Species data analysis and workflows
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-01EADF01
+TI  - Identification errors in camera-trap studies result in systematic population overestimation
+AU  - Örjan Johansson
+AU  - Gustaf Samelius
+AU  - Ewa Wikberg
+AU  - Guillaume Chapron
+AU  - Charudutt Mishra
+AU  - Matthew Low
+PY  - 2020
+JO  - Scientific Reports
+DO  - 10.1038/s41598-020-63367-z
+UR  - https://doi.org/10.1038/s41598-020-63367-z
+VL  - 10
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 2. Species data analysis and workflows
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-16758EAE
+TI  - Three critical factors affecting automated image species recognition performance for camera traps
+AU  - Stefan Schneider
+AU  - Saul Greenberg
+AU  - Graham W. Taylor
+AU  - Stefan C. Kremer
+PY  - 2020
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.6147
+UR  - https://doi.org/10.1002/ece3.6147
+VL  - 10
+IS  - 7
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-81F9CEB8
+TI  - camtrapR: an R package for efficient camera trap data management
+AU  - Jürgen Niedballa
+AU  - Rahel Sollmann
+AU  - Alexandre Courtiol
+AU  - Andreas Wilting
+PY  - 2016
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.12600
+UR  - https://doi.org/10.1111/2041-210x.12600
+VL  - 7
+IS  - 12
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-A12A4562
+TI  - iNEXT: an R package for rarefaction and extrapolation of species diversity ( H ill numbers)
+AU  - T. C. Hsieh
+AU  - K. H. Ma
+AU  - Anne Chao
+PY  - 2016
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.12613
+UR  - https://doi.org/10.1111/2041-210x.12613
+VL  - 7
+IS  - 12
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-19CD5444
+TI  - Quantifying levels of animal activity using camera trap data
+AU  - J. Marcus Rowcliffe
+AU  - Roland Kays
+AU  - Bart Kranstauber
+AU  - Chris Carbone
+AU  - Patrick A. Jansen
+PY  - 2014
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.12278
+UR  - https://doi.org/10.1111/2041-210x.12278
+VL  - 5
+IS  - 11
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-8E9C9870
+TI  - Coverage‐based rarefaction and extrapolation: standardizing samples by completeness rather than size
+AU  - Anne Chao
+AU  - Lou Jost
+PY  - 2012
+JO  - Ecology
+DO  - 10.1890/11-1952.1
+UR  - https://doi.org/10.1890/11-1952.1
+VL  - 93
+IS  - 12
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-11DF6E21
+TI  - Automatic Storage and Analysis of Camera Trap Data
+AU  - Grant Harris
+AU  - Ron Thompson
+AU  - Jack L. Childs
+AU  - James G. Sanderson
+PY  - 2010
+JO  - The Bulletin of the Ecological Society of America
+DO  - 10.1890/0012-9623-91.3.352
+UR  - https://doi.org/10.1890/0012-9623-91.3.352
+VL  - 91
+IS  - 3
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-AE32E365
+TI  - Estimating overlap of daily activity patterns from camera trap data
+AU  - M. S. Ridout
+AU  - M. Linkie
+PY  - 2009
+JO  - Journal of Agricultural, Biological, and Environmental Statistics
+DO  - 10.1198/jabes.2009.08038
+UR  - https://doi.org/10.1198/jabes.2009.08038
+VL  - 14
+IS  - 3
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-2A633EE5
+TI  - Estimating animal density using camera traps without the need for individual recognition
+AU  - J. Marcus Rowcliffe
+AU  - Juliet Field
+AU  - Samuel T. Turvey
+AU  - Chris Carbone
+PY  - 2008
+JO  - Journal of Applied Ecology
+DO  - 10.1111/j.1365-2664.2008.01473.x
+UR  - https://doi.org/10.1111/j.1365-2664.2008.01473.x
+VL  - 45
+IS  - 4
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-3CFAAD4C
+TI  - GENERALIZED SITE OCCUPANCY MODELS ALLOWING FOR FALSE POSITIVE AND FALSE NEGATIVE ERRORS
+AU  - J. Andrew Royle
+AU  - William A. Link
+PY  - 2006
+JO  - Ecology
+DO  - 10.1890/0012-9658(2006)87[835:gsomaf]2.0.co;2
+UR  - https://doi.org/10.1890/0012-9658(2006)87%5B835:gsomaf%5D2.0.co;2
+VL  - 87
+IS  - 4
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-E693BBF5
+TI  - ESTIMATING SITE OCCUPANCY RATES WHEN DETECTION PROBABILITIES ARE LESS THAN ONE
+AU  - Darryl I. MacKenzie
+AU  - James D. Nichols
+AU  - Gideon B. Lachman
+AU  - Sam Droege
+AU  - J. Andrew Royle
+AU  - Catherine A. Langtimm
+PY  - 2002
+JO  - Ecology
+DO  - 10.1890/0012-9658(2002)083[2248:esorwd]2.0.co;2
+UR  - https://doi.org/10.1890/0012-9658(2002)083%5B2248:esorwd%5D2.0.co;2
+VL  - 83
+IS  - 8
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: priority_source_assessment
+ER  -
+
+TY  - JOUR
+ID  - WL-12857F45
+TI  - A Machine Learning Application to Camera‐Traps: Robust Species Interactions Datasets for Analysis of Mutualistic Networks
+AU  - Pablo Villalva
+AU  - Pedro Jordano
+PY  - 2026
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.72584
+UR  - https://doi.org/10.1002/ece3.72584
+VL  - 16
+IS  - 1
+KW  - 1. Enhancing identification models
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-8F78AD37
+TI  - Advancing Biodiversity Monitoring by Integrating Multimodal AI Models into Camera Trap Workflow
+AU  - Luiz Alencar
+AU  - Fagner Cunha
+AU  - Eulanda M. Dos Santos
+PY  - 2026
+JO  - Journal of the Brazilian Computer Society
+DO  - 10.5753/jbcs.2026.5894
+UR  - https://doi.org/10.5753/jbcs.2026.5894
+VL  - 32
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-197B6774
+TI  - Automatic re-identification of terrestrial mammals using deep learning and camera trap images
+AU  - Nuo Xu
+AU  - Yanqi Dong
+AU  - Jiali Zi
+AU  - Yi Xia
+AU  - Zhibin Ma
+AU  - Feixiang Chen
+PY  - 2026
+JO  - Global Ecology and Conservation
+DO  - 10.1016/j.gecco.2026.e04223
+UR  - https://doi.org/10.1016/j.gecco.2026.e04223
+VL  - 68
+KW  - 1. Enhancing identification models
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-753322A5
+TI  - Background-invariant re-identification of dogs from camera-trap videos in non-controlled environments
+AU  - Eugênio Dias Ribeiro Neto
+AU  - Cyril Barrelet
+AU  - Marc Chaumont
+AU  - Gérard Subsol
+AU  - Muhammad Nur Faiz Mahfudz
+AU  - Muhammad Najib Arung Petana Raja Bone
+AU  - Barandi Sapta Widartono
+AU  - Hery Wijayanto
+AU  - Dyah Ayu Widiasih
+AU  - Mia Nur Farida
+AU  - Wayan Tunas Artama
+AU  - Thibaut Langlois
+AU  - Hélène Guis
+AU  - Etienne Loire
+AU  - Michel de Garine-Wichatitsky
+PY  - 2026
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2025.103547
+UR  - https://doi.org/10.1016/j.ecoinf.2025.103547
+VL  - 93
+KW  - 1. Enhancing identification models
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-F5B082E1
+TI  - Biodiversity assessments vary with time-to-independence filter in camera trap studies
+AU  - Karen Carolina da Silva
+AU  - Carlos Alberto de Sousa Rodrigues-Filho
+AU  - Arlison Bezerra Castro
+AU  - Dian Carlos Pinheiro Rosa
+AU  - Carlos Rodrigo Brocardo
+AU  - Rodrigo Ferreira Fadini
+AU  - Clarissa Alves da Rosa
+PY  - 2026
+JO  - Wildlife Research
+DO  - 10.1071/wr25048
+UR  - https://doi.org/10.1071/wr25048
+VL  - 53
+IS  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-374106A6
+TI  - Camera traps and deep learning enable efficient large‐scale density estimation of wildlife in temperate forest ecosystems
+AU  - Maik Henrich
+AU  - Christian Fiderer
+AU  - Alisa Klamm
+AU  - Anja Schneider
+AU  - Axel Ballmann
+AU  - Jürgen Stein
+AU  - Raffael Kratzer
+AU  - Rudolf Reiner
+AU  - Sina Greiner
+AU  - Sönke Twietmeyer
+AU  - Tobias Rönitz
+AU  - Volker Spicher
+AU  - Simon Chamaillé‐Jammes
+AU  - Vincent Miele
+AU  - Gaspard Dussert
+AU  - Marco Heurich
+PY  - 2026
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.70030
+UR  - https://doi.org/10.1002/rse2.70030
+VL  - 12
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 2. Species data analysis and workflows
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-EB3C3895
+TI  - Confidence Thresholds: Towards an Automated Workflow for Unmarked Wildlife Population Modelling With Camera Trap Data
+AU  - Megan Anschau
+AU  - Simon Denman
+AU  - Greg Hocking
+AU  - Grant Hamilton
+PY  - 2026
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.74227
+UR  - https://doi.org/10.1002/ece3.74227
+VL  - 16
+IS  - 9
+KW  - 1. Enhancing identification models
+KW  - 2. Species data analysis and workflows
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-9DFDB06E
+TI  - Contrasting wildlife detection trends without occupancy change: interpreting long-term camera-trap indicators in a protected woodland
+AU  - Christopher Andrews
+AU  - Jan Dick
+PY  - 2026
+JO  - Ecological Indicators
+DO  - 10.1016/j.ecolind.2026.115113
+UR  - https://doi.org/10.1016/j.ecolind.2026.115113
+VL  - 189
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-77976AEA
+TI  - Deep learning-based monitoring and spatiotemporal analysis of wildlife and human activities using camera trap imagery
+AU  - Hao Chen
+AU  - Fang Qiu
+AU  - Umme Kulsum
+AU  - Caiyun Zhang
+AU  - Eve Bohnett
+AU  - Haitao Lyu
+AU  - Shuang Tian
+AU  - Babu Ram Lamichhane
+AU  - Douglas Stow
+AU  - Rebecca Lewison
+AU  - Li An
+PY  - 2026
+JO  - European Journal of Wildlife Research
+DO  - 10.1007/s10344-026-02156-x
+UR  - https://doi.org/10.1007/s10344-026-02156-x
+VL  - 72
+IS  - 5
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-28F219A2
+TI  - Image classification and object detection complexity optimization: Exploring deep learning models on camera trap and surveillance clips
+AU  - Hayder Yousif
+AU  - Zahraa Al-Milaji
+PY  - 2026
+JO  - Results in Control and Optimization
+DO  - 10.1016/j.rico.2026.100654
+UR  - https://doi.org/10.1016/j.rico.2026.100654
+VL  - 22
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-0452EDF8
+TI  - Introducing TropiCam‐AI: A taxonomically flexible automated classifier of Neotropical arboreal mammals and birds from camera‐trap data
+AU  - Andrea Zampetti
+AU  - Luca Santini
+AU  - Iago Ferreiro‐Arias
+AU  - Laura Paltrinieri
+AU  - Iván Ortiz
+AU  - Brayan A. Cedeño‐Panchez
+AU  - Christophe Baltzinger
+AU  - Christopher Beirne
+AU  - Mark T. Bowler
+AU  - Pierre‐Michel Forget
+AU  - Eric Guilbert
+AU  - Yvonne J. M. Kemp
+AU  - Carlos A. Peres
+AU  - Andressa B. Scabin
+AU  - Andrew Whitworth
+AU  - Ana Benítez‐López
+PY  - 2026
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.70213
+UR  - https://doi.org/10.1111/2041-210x.70213
+VL  - 17
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-51B2BE36
+TI  - Mitigating Location Bias for Cross-Location Generalization in Camera Trap Wildlife Detection
+AU  - Aroj Subedi
+PY  - 2026
+JO  - IEEE Access
+DO  - 10.1109/access.2026.3692575
+UR  - https://doi.org/10.1109/access.2026.3692575
+VL  - 14
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-4AF3AE60
+TI  - One Size Does Not Fit All—Ignoring Spatial Variation in Occupancy and Detectability Underestimates the Required Number of Camera Trap Sites
+AU  - Pradeep Raj Joshi
+AU  - Andreas Zedrosser
+AU  - Rahel Sollmann
+AU  - Nuria Selva
+AU  - Simone Santoro
+PY  - 2026
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.70103
+UR  - https://doi.org/10.1002/rse2.70103
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-E72FC70D
+TI  - Optimizing the Accuracy and Efficiency of Camera Trap Image Analysis: Evaluating AI Model Performance and a Semi-Automated Workflow
+AU  - Kelly Hitchcock
+AU  - Simon Tollington
+AU  - Richard W. Yarnell
+AU  - Leah J. Williams
+AU  - Kat Hamill
+AU  - Paul Fergus
+PY  - 2026
+JO  - Remote Sensing
+DO  - 10.3390/rs18030502
+UR  - https://doi.org/10.3390/rs18030502
+VL  - 18
+IS  - 3
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-0564F28C
+TI  - Reannotation-Free Automatic Recognition Methods for Empty Camera Trap Images Based on MegaDetector Optimization
+AU  - Mei Zhang
+AU  - Jing-Xu Yao
+AU  - Rong-Hai Wu
+AU  - Xiao-Wei Li
+AU  - Guo-Peng Ren
+AU  - Wen Xiao
+AU  - Deng-Qi Yang
+PY  - 2026
+JO  - Animals
+DO  - 10.3390/ani16162609
+UR  - https://doi.org/10.3390/ani16162609
+VL  - 16
+IS  - 16
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-4E8CCA50
+TI  - Reducing data processing effort in camera trap density estimation: Extending the REST model by explicitly modelling animal detection processes
+AU  - Yoshihiro Nakashima
+AU  - Gota Yajima
+AU  - Ryo Matsuoka
+PY  - 2026
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.70248
+UR  - https://doi.org/10.1111/2041-210x.70248
+VL  - 17
+IS  - 3
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-2CAF4643
+TI  - Structured Habitat Attribute Extraction from Camera-Trap Images Using a Vision–Language Model: A Proof-of-Concept Study in a Karst Forest
+AU  - Xiaoming Mo
+AU  - Yanyan Zhao
+AU  - Jifeng Long
+AU  - Hui Gao
+AU  - Yongjie Huang
+AU  - Wenhua Li
+AU  - Yang Luo
+AU  - Shengyuan Liu
+AU  - Yubiao Lyu
+AU  - Shuangling Wang
+PY  - 2026
+JO  - Sensors
+DO  - 10.3390/s26196240
+UR  - https://doi.org/10.3390/s26196240
+VL  - 26
+IS  - 19
+KW  - 1. Enhancing identification models
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-EEEC8EAA
+TI  - Addressing significant challenges for animal detection in camera trap images: a novel deep learning-based approach
+AU  - Margarita Mulero-Pázmány
+AU  - Sandro Hurtado
+AU  - Cristóbal Barba-González
+AU  - María Luisa Antequera-Gómez
+AU  - Francisco Díaz-Ruiz
+AU  - Raimundo Real
+AU  - Ismael Navas-Delgado
+AU  - José F. Aldana-Montes
+PY  - 2025
+JO  - Scientific Reports
+DO  - 10.1038/s41598-025-90249-z
+UR  - https://doi.org/10.1038/s41598-025-90249-z
+VL  - 15
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-74E30CEE
+TI  - An Improved Lightweight Model for Protected Wildlife Detection in Camera Trap Images
+AU  - Zengjie Du
+AU  - Dasheng Wu
+AU  - Qingqing Wen
+AU  - Fengya Xu
+AU  - Zhongbin Liu
+AU  - Cheng Li
+AU  - Ruikang Luo
+PY  - 2025
+JO  - Sensors
+DO  - 10.3390/s25237331
+UR  - https://doi.org/10.3390/s25237331
+VL  - 25
+IS  - 23
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-2FD9CE91
+TI  - An active ensemble classifier for detecting animal sequences from global camera trap data
+AU  - Tommi Mononen
+AU  - Bess Hardwick
+AU  - Sandra Alcobia
+AU  - Adrian Barrett
+AU  - Gergin A. Blagoev
+AU  - Stéphane Boyer
+AU  - Paula Gonçalves
+AU  - Brigitte Gottsberger
+AU  - Elli Groner
+AU  - Chris C. Y. Ho
+AU  - Marketa Houska Tahadlova
+AU  - Andrea Kaus‐Thiel
+AU  - Irmgard Krisai‐Greilhuber
+AU  - Valerie Levesque‐Beaudin
+AU  - Carlos Lopez‐Vaamonde
+AU  - Sebastien Moreau
+AU  - Anna Mrazova
+AU  - Mikko Pentinsaari
+AU  - Adrian Pinder
+AU  - Kirsty Quinlan
+AU  - Wolfram Remmers
+AU  - Inês T. Rosário
+AU  - Katerina Sam
+AU  - Margarida Santos‐Reis
+AU  - Lucas Sire
+AU  - Elise Sivault
+AU  - Stefan Stoll
+AU  - Patrick Strutzenberger
+AU  - Lauren Vanderlingen
+AU  - Fabrice Vannier
+AU  - Tereza Vlasata
+AU  - Otso Ovaskainen
+PY  - 2025
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.70144
+UR  - https://doi.org/10.1111/2041-210x.70144
+VL  - 16
+IS  - 10
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-43F0D847
+TI  - Body-part-based individual feral cat identification from camera trap images using deep learning
+AU  - Rio Rifqi Syah Akbar
+AU  - Matthew W. Rees
+AU  - Patricia A. Fleming
+AU  - Ferdous Sohel
+PY  - 2025
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2025.103258
+UR  - https://doi.org/10.1016/j.ecoinf.2025.103258
+VL  - 90
+KW  - 1. Enhancing identification models
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-AA1F3108
+TI  - DeLoCo: Decoupled location context-guided framework for wildlife species classification using camera trap images
+AU  - Lifeng Wang
+AU  - Shun Wang
+AU  - Chenxun Deng
+AU  - Haowei Zhu
+AU  - Ye Tian
+AU  - Junguo Zhang
+PY  - 2025
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2024.102949
+UR  - https://doi.org/10.1016/j.ecoinf.2024.102949
+VL  - 85
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-98AF9F7B
+TI  - DeepForestVision : Automated wildlife identification for camera traps of African tropical forests
+AU  - Hugo Magaldi
+AU  - Raphaël Cornette
+AU  - John Justice Tibesigwa
+AU  - Raymond Katumba
+AU  - Harold Rugonge
+AU  - Bala Amarasekaran
+AU  - Naomi Anderson
+AU  - Noémie Cappelle
+AU  - Anabelle W. Cardoso
+AU  - Daniel Cornélis
+AU  - Tobias Deschner
+AU  - Davy Fonteyn
+AU  - Rosa M. Garriga
+AU  - Peter van Lunteren
+AU  - Xavier Rufray
+AU  - Hadrien Vanthomme
+AU  - Joeri A. Zwerts
+AU  - Sabrina Krief
+PY  - 2025
+JO  - Ecological Solutions and Evidence
+DO  - 10.1002/2688-8319.70167
+UR  - https://doi.org/10.1002/2688-8319.70167
+VL  - 6
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-B8D753B2
+TI  - Enhancing generalization in camera trap image recognition: Fine-tuning visual language models
+AU  - Zihe Yang
+AU  - Ye Tian
+AU  - Lifeng Wang
+AU  - Junguo Zhang
+PY  - 2025
+JO  - Neurocomputing
+DO  - 10.1016/j.neucom.2025.129826
+UR  - https://doi.org/10.1016/j.neucom.2025.129826
+VL  - 634
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-C047B402
+TI  - Fox on the Run—Cheaper Camera Traps Fail to Detect Fast‐Moving Mesopredators
+AU  - R. McHenry
+AU  - L. J. Mitchell
+AU  - C. Marshall
+AU  - J. Smart
+AU  - A. L. de Raad
+AU  - R. Andersen
+PY  - 2025
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.70958
+UR  - https://doi.org/10.1002/ece3.70958
+VL  - 15
+IS  - 2
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-AC7BCF5D
+TI  - From Blurs to Birds: Localization and Classification of Hard-to-See Bird Species in Norwegian Wilderness Camera Trap Images
+AU  - Håvard Teigen
+AU  - Ammar Ahmed
+AU  - Ali Shariq Imran
+AU  - Mohib Ullah
+AU  - R. Muhammad Atif Azad
+AU  - Ahmet Soylu
+PY  - 2025
+JO  - IEEE Access
+DO  - 10.1109/access.2025.3613068
+UR  - https://doi.org/10.1109/access.2025.3613068
+VL  - 13
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-368E96BD
+TI  - Increasing citizen scientist accuracy with artificial intelligence on UK camera‐trap data
+AU  - C. R. Sharpe
+AU  - R. A. Hill
+AU  - H. M. Chappell
+AU  - S. E. Green
+AU  - K. Holden
+AU  - P. Fergus
+AU  - C. Chalmers
+AU  - P. A. Stephens
+PY  - 2025
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.70012
+UR  - https://doi.org/10.1002/rse2.70012
+VL  - 11
+IS  - 6
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-3AC46ED9
+TI  - Smart camera traps and computer vision improve detections of small fauna
+AU  - Angela J. L. Pestell
+AU  - Anthony R. Rendall
+AU  - Robin D. Sinclair
+AU  - Euan G. Ritchie
+AU  - Duc T. Nguyen
+AU  - Dean M. Corva
+AU  - Anne C. Eichholtzer
+AU  - Abbas Z. Kouzani
+AU  - Don A. Driscoll
+PY  - 2025
+JO  - Ecosphere
+DO  - 10.1002/ecs2.70220
+UR  - https://doi.org/10.1002/ecs2.70220
+VL  - 16
+IS  - 3
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-D674C9DF
+TI  - Weakly supervised bounding‐box generation for camera‐trap image based animal detection
+AU  - Puxuan Xie
+AU  - Renwu Gao
+AU  - Weizeng Lu
+AU  - Linlin Shen
+PY  - 2025
+JO  - IET Computer Vision
+DO  - 10.1049/cvi2.12332
+UR  - https://doi.org/10.1049/cvi2.12332
+VL  - 19
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-BB1DDFDE
+TI  - Wild Boar Detection on Sea Turtle Nesting Beaches Using Camera Trap Images: Automated Image Recognition with YOLO Models and Their Evaluation
+AU  - Kengo Matsuoka
+AU  - Masashi Konoshima
+AU  - Takeshi Eto
+AU  - Ikuo Ota
+PY  - 2025
+JO  - FORMATH
+DO  - 10.15684/formath.24.006
+UR  - https://doi.org/10.15684/formath.24.006
+VL  - 24
+IS  - 0
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-965EEC23
+TI  - A systematic study on transfer learning: Automatically identifying empty camera trap images using deep convolutional neural networks
+AU  - Deng-Qi Yang
+AU  - De-Yao Meng
+AU  - Hao-Xuan Li
+AU  - Meng-Tao Li
+AU  - Han-Lin Jiang
+AU  - Kun Tan
+AU  - Zhi-Pang Huang
+AU  - Na Li
+AU  - Rong-Hai Wu
+AU  - Xiao-Wei Li
+AU  - Ben-Hui Chen
+AU  - Mei Zhang
+AU  - Guo-Peng Ren
+AU  - Wen Xiao
+PY  - 2024
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2024.102527
+UR  - https://doi.org/10.1016/j.ecoinf.2024.102527
+VL  - 80
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-CCE1F4F6
+TI  - A versatile, semi-automated image analysis workflow for time-lapse camera trap image classification
+AU  - Gerardo Celis
+AU  - Peter Ungar
+AU  - Aleksandr Sokolov
+AU  - Natalia Sokolova
+AU  - Hanna Böhner
+AU  - Desheng Liu
+AU  - Olivier Gilg
+AU  - Ivan Fufachev
+AU  - Olga Pokrovskaya
+AU  - Rolf Anker Ims
+AU  - Wenbo Zhou
+AU  - Dan Morris
+AU  - Dorothee Ehrich
+PY  - 2024
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2024.102578
+UR  - https://doi.org/10.1016/j.ecoinf.2024.102578
+VL  - 81
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-A2050325
+TI  - Adaptive image processing embedding to make the ecological tasks of deep learning more robust on camera traps images
+AU  - Zihe Yang
+AU  - Ye Tian
+AU  - Junguo Zhang
+PY  - 2024
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2024.102705
+UR  - https://doi.org/10.1016/j.ecoinf.2024.102705
+VL  - 82
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-0F2CF466
+TI  - An Ecologist‐Friendly R Workflow for Expediting Species‐Level Classification of Camera Trap Images
+AU  - L. Petroni
+AU  - L. Natucci
+AU  - A. Massolo
+PY  - 2024
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.70544
+UR  - https://doi.org/10.1002/ece3.70544
+VL  - 14
+IS  - 12
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-29F65573
+TI  - Automated visitor and wildlife monitoring with camera traps and machine learning
+AU  - Veronika Mitterwallner
+AU  - Anne Peters
+AU  - Hendrik Edelhoff
+AU  - Gregor Mathes
+AU  - Hien Nguyen
+AU  - Wibke Peters
+AU  - Marco Heurich
+AU  - Manuel J. Steinbauer
+PY  - 2024
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.367
+UR  - https://doi.org/10.1002/rse2.367
+VL  - 10
+IS  - 2
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-99C750AA
+TI  - CamTrapAsia: A dataset of tropical forest vertebrate communities from 239 camera trapping studies
+AU  - Calebe P. Mendes
+AU  - Wido R. Albert
+AU  - Zachary Amir
+AU  - Marc Ancrenaz
+AU  - Eric Ash
+AU  - Badrul Azhar
+AU  - Henry Bernard
+AU  - Jedediah Brodie
+AU  - Tom Bruce
+AU  - Elliot Carr
+AU  - Gopalasamy Reuben Clements
+AU  - Glyn Davies
+AU  - Nicolas J. Deere
+AU  - Yoan Dinata
+AU  - Christl A. Donnelly
+AU  - Somphot Duangchantrasiri
+AU  - Gabriella Fredriksson
+AU  - Benoit Goossens
+AU  - Alys Granados
+AU  - Andrew Hearn
+AU  - Jason Hon
+AU  - Tom Hughes
+AU  - Patrick Jansen
+AU  - Kae Kawanishi
+AU  - Margaret Kinnaird
+AU  - Sharon Koh
+AU  - Alice Latinne
+AU  - Matthew Linkie
+AU  - Federica Loi
+AU  - Anthony J. Lynam
+AU  - Erik Meijaard
+AU  - Jayasilan Mohd‐Azlan
+AU  - Jonathan H. Moore
+AU  - Senthilvel K. S. S. Nathan
+AU  - Dusit Ngoprasert
+AU  - Wilson Novarino
+AU  - Ilyas Nursamsi
+AU  - Timothy O'Brien
+AU  - Robert Ong
+AU  - John Payne
+AU  - Dolly Priatna
+AU  - D. Mark Rayan
+AU  - Glen Reynolds
+AU  - Rustam Rustam
+AU  - Sasidhran Selvadurai
+AU  - Amanda Shia
+AU  - Muhammad Silmi
+AU  - Pablo Sinovas
+AU  - Kriangsak Sribuarod
+AU  - Robert Steinmetz
+AU  - Matthew J. Struebig
+AU  - Ronglarp Sukmasuang
+AU  - Sunarto Sunarto
+AU  - Tarmizi Tarmizi
+AU  - Arjun Thapa
+AU  - Carl Traeholt
+AU  - Oliver R. Wearn
+AU  - Hariyo B. Wibisono
+AU  - Andreas Wilting
+AU  - Seth Timothy Wong
+AU  - Siew Te Wong
+AU  - Jettie Word
+AU  - Wen Xuan Chiok
+AU  - Zainal Zahari Zainuddin
+AU  - Matthew Scott Luskin
+PY  - 2024
+JO  - Ecology
+DO  - 10.1002/ecy.4299
+UR  - https://doi.org/10.1002/ecy.4299
+VL  - 105
+IS  - 6
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-FB534A04
+TI  - Detecting and monitoring rodents using camera traps and machine learning versus live trapping for occupancy modeling
+AU  - Jaran Hopkins
+AU  - Gabriel Marcelo Santos-Elizondo
+AU  - Francis Villablanca
+PY  - 2024
+JO  - Frontiers in Ecology and Evolution
+DO  - 10.3389/fevo.2024.1359201
+UR  - https://doi.org/10.3389/fevo.2024.1359201
+VL  - 12
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-6C7F59E8
+TI  - Dog invasions in protected areas: A case study using camera trapping, citizen science and artificial intelligence
+AU  - Santiago Gutiérrez-Zapata
+AU  - Simone Santoro
+AU  - Manuel Emilio Gegundez-Arias
+AU  - Nuria Selva
+AU  - Javier Calzada
+PY  - 2024
+JO  - Global Ecology and Conservation
+DO  - 10.1016/j.gecco.2024.e03109
+UR  - https://doi.org/10.1016/j.gecco.2024.e03109
+VL  - 54
+KW  - 1. Enhancing identification models
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-A0E27914
+TI  - Exploring the potential application of a custom deep learning model for camera trap analysis of local urban species
+AU  - Somin Park
+AU  - Mingyun Cho
+AU  - Suryeon Kim
+AU  - Jaeyeon Choi
+AU  - Wonkyong Song
+AU  - Wheemoon Kim
+AU  - Youngkeun Song
+AU  - Hyemin Park
+AU  - Jonghyun Yoo
+AU  - Seung Beom Seo
+AU  - Chan Park
+PY  - 2024
+JO  - Landscape and Ecological Engineering
+DO  - 10.1007/s11355-024-00618-5
+UR  - https://doi.org/10.1007/s11355-024-00618-5
+VL  - 20
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-83D47754
+TI  - Human Supervision is Key to Achieving Accurate AI-assisted Wildlife Identifications in Camera Trap Images
+AU  - Sarah E. Huebner
+AU  - Meredith S. Palmer
+AU  - Craig Packer
+PY  - 2024
+JO  - Citizen Science: Theory and Practice
+DO  - 10.5334/cstp.752
+UR  - https://doi.org/10.5334/cstp.752
+VL  - 9
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-62546905
+TI  - Object classification and visualization with edge artificial intelligence for a customized camera trap platform
+AU  - Sajid Nazir
+AU  - Mohammad Kaleem
+PY  - 2024
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2023.102453
+UR  - https://doi.org/10.1016/j.ecoinf.2023.102453
+VL  - 79
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-79A2AEF5
+TI  - Recognition of European mammals and birds in camera trap images using deep neural networks
+AU  - Daniel Schneider
+AU  - Kim Lindner
+AU  - Markus Vogelbacher
+AU  - Hicham Bellafkir
+AU  - Nina Farwig
+AU  - Bernd Freisleben
+PY  - 2024
+JO  - IET Computer Vision
+DO  - 10.1049/cvi2.12294
+UR  - https://doi.org/10.1049/cvi2.12294
+VL  - 18
+IS  - 8
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-3A5813D0
+TI  - Reliable and efficient integration of AI into camera traps for smart wildlife monitoring based on continual learning
+AU  - Delia Velasco-Montero
+AU  - Jorge Fernández-Berni
+AU  - Ricardo Carmona-Galán
+AU  - Ariadna Sanglas
+AU  - Francisco Palomares
+PY  - 2024
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2024.102815
+UR  - https://doi.org/10.1016/j.ecoinf.2024.102815
+VL  - 83
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-C74F515A
+TI  - Sherlock—A flexible, low‐resource tool for processing camera‐trapping images
+AU  - Matthew J. Penn
+AU  - Verity Miles
+AU  - Kelly L. Astley
+AU  - Cally Ham
+AU  - Rosie Woodroffe
+AU  - Marcus Rowcliffe
+AU  - Christl A. Donnelly
+PY  - 2024
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.14254
+UR  - https://doi.org/10.1111/2041-210x.14254
+VL  - 15
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-CC486720
+TI  - Towards Context-Rich Automated Biodiversity Assessments: Deriving AI-Powered Insights from Camera Trap Data
+AU  - Paul Fergus
+AU  - Carl Chalmers
+AU  - Naomi Matthews
+AU  - Stuart Nixon
+AU  - André Burger
+AU  - Oliver Hartley
+AU  - Chris Sutherland
+AU  - Xavier Lambin
+AU  - Steven Longmore
+AU  - Serge Wich
+PY  - 2024
+JO  - Sensors
+DO  - 10.3390/s24248122
+UR  - https://doi.org/10.3390/s24248122
+VL  - 24
+IS  - 24
+KW  - 1. Enhancing identification models
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-DC18CA8B
+TI  - Towards an automated protocol for wildlife density estimation using camera‐traps
+AU  - Andrea Zampetti
+AU  - Davide Mirante
+AU  - Pablo Palencia
+AU  - Luca Santini
+PY  - 2024
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.14450
+UR  - https://doi.org/10.1111/2041-210x.14450
+VL  - 15
+IS  - 12
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-F5D7EB6D
+TI  - WildCLIP: Scene and Animal Attribute Retrieval from Camera Trap Data with Domain-Adapted Vision-Language Models
+AU  - Valentin Gabeff
+AU  - Marc Rußwurm
+AU  - Devis Tuia
+AU  - Alexander Mathis
+PY  - 2024
+JO  - International Journal of Computer Vision
+DO  - 10.1007/s11263-024-02026-6
+UR  - https://doi.org/10.1007/s11263-024-02026-6
+VL  - 132
+IS  - 9
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-FFC8238F
+TI  - A semi-automatic workflow to process images from small mammal camera traps
+AU  - Hanna Böhner
+AU  - Eivind Flittie Kleiven
+AU  - Rolf Anker Ims
+AU  - Eeva M. Soininen
+PY  - 2023
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2023.102150
+UR  - https://doi.org/10.1016/j.ecoinf.2023.102150
+VL  - 76
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-2861FB27
+TI  - Accurate detection and identification of insects from camera trap images with deep learning
+AU  - Kim Bjerge
+AU  - Jamie Alison
+AU  - Mads Dyrmann
+AU  - Carsten Eie Frigaard
+AU  - Hjalte M. R. Mann
+AU  - Toke Thomas Høye
+PY  - 2023
+JO  - PLOS Sustainability and Transformation
+DO  - 10.1371/journal.pstr.0000051
+UR  - https://doi.org/10.1371/journal.pstr.0000051
+VL  - 2
+IS  - 3
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-A7BB61D1
+TI  - An evaluation of platforms for processing camera‐trap data using artificial intelligence
+AU  - Juliana Vélez
+AU  - William McShea
+AU  - Hila Shamon
+AU  - Paula J. Castiblanco‐Camacho
+AU  - Michael A. Tabak
+AU  - Carl Chalmers
+AU  - Paul Fergus
+AU  - John Fieberg
+PY  - 2023
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.14044
+UR  - https://doi.org/10.1111/2041-210x.14044
+VL  - 14
+IS  - 2
+KW  - 1. Enhancing identification models
+KW  - 2. Species data analysis and workflows
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-0F0C0F5E
+TI  - Animal Species Recognition with Deep Convolutional Neural Networks from Ecological Camera Trap Images
+AU  - Sazida Binta Islam
+AU  - Damian Valles
+AU  - Toby J. Hibbitts
+AU  - Wade A. Ryberg
+AU  - Danielle K. Walkup
+AU  - Michael R. J. Forstner
+PY  - 2023
+JO  - Animals
+DO  - 10.3390/ani13091526
+UR  - https://doi.org/10.3390/ani13091526
+VL  - 13
+IS  - 9
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-51468B7A
+TI  - Applying Few-Shot Learning for In-the-Wild Camera-Trap Species Classification
+AU  - Haoyu Chen
+AU  - Stacy Lindshield
+AU  - Papa Ibnou Ndiaye
+AU  - Yaya Hamady Ndiaye
+AU  - Jill D. Pruetz
+AU  - Amy R. Reibman
+PY  - 2023
+JO  - AI
+DO  - 10.3390/ai4030031
+UR  - https://doi.org/10.3390/ai4030031
+VL  - 4
+IS  - 3
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-A9B40300
+TI  - Bag of tricks for long-tail visual recognition of animal species in camera-trap images
+AU  - Fagner Cunha
+AU  - Eulanda M. dos Santos
+AU  - Juan G. Colonna
+PY  - 2023
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2023.102060
+UR  - https://doi.org/10.1016/j.ecoinf.2023.102060
+VL  - 76
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-F4868683
+TI  - BatNet: a deep learning‐based tool for automated bat species identification from camera trap images
+AU  - Gabriella Krivek
+AU  - Alexander Gillert
+AU  - Martin Harder
+AU  - Marcus Fritze
+AU  - Karina Frankowski
+AU  - Luisa Timm
+AU  - Liska Meyer‐Olbersleben
+AU  - Uwe Freiherr von Lukas
+AU  - Gerald Kerth
+AU  - Jaap van Schaik
+PY  - 2023
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.339
+UR  - https://doi.org/10.1002/rse2.339
+VL  - 9
+IS  - 6
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-4FCEF071
+TI  - DeepWILD: Wildlife Identification, Localisation and estimation on camera trap videos using Deep learning
+AU  - Fanny Simões
+AU  - Charles Bouveyron
+AU  - Frédéric Precioso
+PY  - 2023
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2023.102095
+UR  - https://doi.org/10.1016/j.ecoinf.2023.102095
+VL  - 75
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-DA6C5400
+TI  - Finding the sweet spot in camera trapping: A global synthesis and meta‐analysis of minimum sampling effort
+AU  - Nargol Ghazian
+AU  - Christopher J. Lortie
+PY  - 2023
+JO  - Ecological Management & Restoration
+DO  - 10.1111/emr.12581
+UR  - https://doi.org/10.1111/emr.12581
+VL  - 24
+IS  - 2-3
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-FA02DF08
+TI  - Human expertise combined with artificial intelligence improves performance of snow leopard camera trap studies
+AU  - Eve Bohnett
+AU  - Sorosh Poya Faryabi
+AU  - Rebecca Lewison
+AU  - Li An
+AU  - Xiaoxing Bian
+AU  - Ali Madad Rajabi
+AU  - Nasratullah Jahed
+AU  - Hashim Rooyesh
+AU  - Erica Mills
+AU  - Saber Ramos
+AU  - Nathan Mesnildrey
+AU  - Carolina M. Santoro Perez
+AU  - Janet Taylor
+AU  - Vladimir Terentyev
+AU  - Stephane Ostrowski
+PY  - 2023
+JO  - Global Ecology and Conservation
+DO  - 10.1016/j.gecco.2022.e02350
+UR  - https://doi.org/10.1016/j.gecco.2022.e02350
+VL  - 41
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-C918DB9F
+TI  - Long-Tailed Metrics and Object Detection in Camera Trap Datasets
+AU  - Wentong He
+AU  - Ze Luo
+AU  - Xinyu Tong
+AU  - Xiaoyi Hu
+AU  - Can Chen
+AU  - Zufei Shu
+PY  - 2023
+JO  - Applied Sciences
+DO  - 10.3390/app13106029
+UR  - https://doi.org/10.3390/app13106029
+VL  - 13
+IS  - 10
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-4DE3A483
+TI  - Rarefaction and extrapolation with beta diversity under a framework of Hill numbers: The iNEXT.beta3D standardization
+AU  - Anne Chao
+AU  - Simon Thorn
+AU  - Chun‐Huo Chiu
+AU  - Faye Moyes
+AU  - Kai‐Hsiang Hu
+AU  - Robin L. Chazdon
+AU  - Jessie Wu
+AU  - Luiz Fernando S. Magnago
+AU  - Maria Dornelas
+AU  - David Zelený
+AU  - Robert K. Colwell
+AU  - Anne E. Magurran
+PY  - 2023
+JO  - Ecological Monographs
+DO  - 10.1002/ecm.1588
+UR  - https://doi.org/10.1002/ecm.1588
+VL  - 93
+IS  - 4
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-D3FAD46A
+TI  - Removing Human Bottlenecks in Bird Classification Using Camera Trap Images and Deep Learning
+AU  - Carl Chalmers
+AU  - Paul Fergus
+AU  - Serge Wich
+AU  - Steven N. Longmore
+AU  - Naomi Davies Walsh
+AU  - Philip A. Stephens
+AU  - Chris Sutherland
+AU  - Naomi Matthews
+AU  - Jens Mudde
+AU  - Amira Nuseibeh
+PY  - 2023
+JO  - Remote Sensing
+DO  - 10.3390/rs15102638
+UR  - https://doi.org/10.3390/rs15102638
+VL  - 15
+IS  - 10
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-1CD2A56F
+TI  - The DeepFaune initiative: a collaborative effort towards the automatic identification of European fauna in camera trap images
+AU  - Noa Rigoudy
+AU  - Gaspard Dussert
+AU  - Abdelbaki Benyoub
+AU  - Aurélien Besnard
+AU  - Carole Birck
+AU  - Jérome Boyer
+AU  - Yoann Bollet
+AU  - Yoann Bunz
+AU  - Gérard Caussimont
+AU  - Elias Chetouane
+AU  - Jules Chiffard Carriburu
+AU  - Pierre Cornette
+AU  - Anne Delestrade
+AU  - Nina De Backer
+AU  - Lucie Dispan
+AU  - Maden Le Barh
+AU  - Jeanne Duhayer
+AU  - Jean-François Elder
+AU  - Jean-Baptiste Fanjul
+AU  - Jocelyn Fonderflick
+AU  - Nicolas Froustey
+AU  - Mathieu Garel
+AU  - William Gaudry
+AU  - Agathe Gérard
+AU  - Olivier Gimenez
+AU  - Arzhela Hemery
+AU  - Audrey Hemon
+AU  - Jean-Michel Jullien
+AU  - Daniel Knitter
+AU  - Isabelle Malafosse
+AU  - Mircea Marginean
+AU  - Louise Ménard
+AU  - Alice Ouvrier
+AU  - Gwennaelle Pariset
+AU  - Vincent Prunet
+AU  - Julien Rabault
+AU  - Malory Randon
+AU  - Yann Raulet
+AU  - Antoine Régnier
+AU  - Romain Ribière
+AU  - Jean-Claude Ricci
+AU  - Sandrine Ruette
+AU  - Yann Schneylin
+AU  - Jérôme Sentilles
+AU  - Nathalie Siefert
+AU  - Bethany Smith
+AU  - Guillaume Terpereau
+AU  - Pierrick Touchet
+AU  - Wilfried Thuiller
+AU  - Antonio Uzal
+AU  - Valentin Vautrain
+AU  - Ruppert Vimal
+AU  - Julian Weber
+AU  - Bruno Spataro
+AU  - Vincent Miele
+AU  - Simon Chamaillé-Jammes
+PY  - 2023
+JO  - European Journal of Wildlife Research
+DO  - 10.1007/s10344-023-01742-7
+UR  - https://doi.org/10.1007/s10344-023-01742-7
+VL  - 69
+IS  - 6
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-53243467
+TI  - The successes and pitfalls: Deep‐learning effectiveness in a Chernobyl field camera trap application
+AU  - Rachel E. Maile
+AU  - Matthew T. Duggan
+AU  - Timothy A. Mousseau
+PY  - 2023
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.10454
+UR  - https://doi.org/10.1002/ece3.10454
+VL  - 13
+IS  - 9
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-2CC8A2A3
+TI  - An IoT System Using Deep Learning to Classify Camera Trap Images on the Edge
+AU  - Imran Zualkernan
+AU  - Salam Dhou
+AU  - Jacky Judas
+AU  - Ali Reza Sajun
+AU  - Brylle Ryan Gomez
+AU  - Lana Alhaj Hussain
+PY  - 2022
+JO  - Computers
+DO  - 10.3390/computers11010013
+UR  - https://doi.org/10.3390/computers11010013
+VL  - 11
+IS  - 1
+KW  - 1. Enhancing identification models
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-D5ABB617
+TI  - Animal Detection and Classification from Camera Trap Images Using Different Mainstream Object Detection Architectures
+AU  - Mengyu Tan
+AU  - Wentao Chao
+AU  - Jo-Ku Cheng
+AU  - Mo Zhou
+AU  - Yiwen Ma
+AU  - Xinyi Jiang
+AU  - Jianping Ge
+AU  - Lian Yu
+AU  - Limin Feng
+PY  - 2022
+JO  - Animals
+DO  - 10.3390/ani12151976
+UR  - https://doi.org/10.3390/ani12151976
+VL  - 12
+IS  - 15
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-FE47644C
+TI  - Class incremental learning for wildlife biodiversity monitoring in camera trap images
+AU  - Haowei Zhu
+AU  - Ye Tian
+AU  - Junguo Zhang
+PY  - 2022
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2022.101760
+UR  - https://doi.org/10.1016/j.ecoinf.2022.101760
+VL  - 71
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-16079CAB
+TI  - Classification Efficiency of Pre-Trained Deep CNN Models on Camera Trap Images
+AU  - Adam Stančić
+AU  - Vedran Vyroubal
+AU  - Vedran Slijepčević
+PY  - 2022
+JO  - Journal of Imaging
+DO  - 10.3390/jimaging8020020
+UR  - https://doi.org/10.3390/jimaging8020020
+VL  - 8
+IS  - 2
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-D5FC4173
+TI  - Density estimation of non-independent unmarked animals from camera traps
+AU  - Kohta Hayashi
+AU  - Hayato Iijima
+PY  - 2022
+JO  - Ecological Modelling
+DO  - 10.1016/j.ecolmodel.2022.110100
+UR  - https://doi.org/10.1016/j.ecolmodel.2022.110100
+VL  - 472
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-FEE43C9F
+TI  - Domain-Aware Neural Architecture Search for Classifying Animals in Camera Trap Images
+AU  - Liang Jia
+AU  - Ye Tian
+AU  - Junguo Zhang
+PY  - 2022
+JO  - Animals
+DO  - 10.3390/ani12040437
+UR  - https://doi.org/10.3390/ani12040437
+VL  - 12
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-23E5AA27
+TI  - Double-observer approach with camera traps can correct imperfect detection and improve the accuracy of density estimation of unmarked animal populations
+AU  - Yoshihiro Nakashima
+AU  - Shun Hongo
+AU  - Kaori Mizuno
+AU  - Gota Yajima
+AU  - Zeun’s C. B. Dzefck
+PY  - 2022
+JO  - Scientific Reports
+DO  - 10.1038/s41598-022-05853-0
+UR  - https://doi.org/10.1038/s41598-022-05853-0
+VL  - 12
+IS  - 1
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-C3592E77
+TI  - Estimating species misclassification with occupancy dynamics and encounter rates: A semi‐supervised, individual‐level approach
+AU  - Anna I. Spiers
+AU  - J. Andrew Royle
+AU  - Christa L. Torrens
+AU  - Maxwell B. Joseph
+PY  - 2022
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.13858
+UR  - https://doi.org/10.1111/2041-210x.13858
+VL  - 13
+IS  - 7
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-EA482ADE
+TI  - Human vs. machine: Detecting wildlife in camera trap images
+AU  - Scott Leorna
+AU  - Todd Brinkman
+PY  - 2022
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2022.101876
+UR  - https://doi.org/10.1016/j.ecoinf.2022.101876
+VL  - 72
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-CB8C93BE
+TI  - Motion vectors and deep neural networks for video camera traps
+AU  - Miklas Riechmann
+AU  - Ross Gardiner
+AU  - Kai Waddington
+AU  - Ryan Rueger
+AU  - Frederic Fol Leymarie
+AU  - Stefan Rueger
+PY  - 2022
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2022.101657
+UR  - https://doi.org/10.1016/j.ecoinf.2022.101657
+VL  - 69
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-AC484498
+TI  - Towards a best‐practices guide for camera trapping: assessing differences among camera trap models and settings under field conditions
+AU  - P. Palencia
+AU  - J. Vicente
+AU  - R. C. Soriguer
+AU  - P. Acevedo
+PY  - 2022
+JO  - Journal of Zoology
+DO  - 10.1111/jzo.12945
+UR  - https://doi.org/10.1111/jzo.12945
+VL  - 316
+IS  - 3
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-AF95BE49
+TI  - Understanding External Influences on Target Detection and Classification Using Camera Trap Images and Machine Learning
+AU  - Sally O. A. Westworth
+AU  - Carl Chalmers
+AU  - Paul Fergus
+AU  - Steven N. Longmore
+AU  - Alex K. Piel
+AU  - Serge A. Wich
+PY  - 2022
+JO  - Sensors
+DO  - 10.3390/s22145386
+UR  - https://doi.org/10.3390/s22145386
+VL  - 22
+IS  - 14
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-0E17ACA1
+TI  - Ungulate Detection and Species Classification from Camera Trap Images Using RetinaNet and Faster R-CNN
+AU  - Alekss Vecvanags
+AU  - Kadir Aktas
+AU  - Ilja Pavlovs
+AU  - Egils Avots
+AU  - Jevgenijs Filipovs
+AU  - Agris Brauns
+AU  - Gundega Done
+AU  - Dainis Jakovels
+AU  - Gholamreza Anbarjafari
+PY  - 2022
+JO  - Entropy
+DO  - 10.3390/e24030353
+UR  - https://doi.org/10.3390/e24030353
+VL  - 24
+IS  - 3
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-3ECAC5AF
+TI  - Use of object detection in camera trap image identification: Assessing a method to rapidly and accurately classify human and animal detections for research and application in recreation ecology
+AU  - Mitchell Fennell
+AU  - Christopher Beirne
+AU  - A. Cole Burton
+PY  - 2022
+JO  - Global Ecology and Conservation
+DO  - 10.1016/j.gecco.2022.e02104
+UR  - https://doi.org/10.1016/j.gecco.2022.e02104
+VL  - 35
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-96D332D5
+TI  - Utility of machine learning for segmenting camera trap time‐lapse recordings
+AU  - Michael L. Hilton
+AU  - Jeffrey M. Goessling
+AU  - Leah M. Knezevich
+AU  - Jane M. Downer
+PY  - 2022
+JO  - Wildlife Society Bulletin
+DO  - 10.1002/wsb.1342
+UR  - https://doi.org/10.1002/wsb.1342
+VL  - 46
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-D2DBA243
+TI  - A systematic study of the class imbalance problem: Automatically identifying empty camera trap images using convolutional neural networks
+AU  - Deng-Qi Yang
+AU  - Tao Li
+AU  - Meng-Tao Liu
+AU  - Xiao-Wei Li
+AU  - Ben-Hui Chen
+PY  - 2021
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2021.101350
+UR  - https://doi.org/10.1016/j.ecoinf.2021.101350
+VL  - 64
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-1C290531
+TI  - Abundance estimation of unmarked animals based on camera‐trap data
+AU  - Neil A. Gilbert
+AU  - John D. J. Clare
+AU  - Jennifer L. Stenglein
+AU  - Benjamin Zuckerberg
+PY  - 2021
+JO  - Conservation Biology
+DO  - 10.1111/cobi.13517
+UR  - https://doi.org/10.1111/cobi.13517
+VL  - 35
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-BD6712A9
+TI  - An Adaptive Automatic Approach to Filtering Empty Images from Camera Traps Using a Deep Learning Model
+AU  - Deng‐Qi Yang
+AU  - Guo‐Peng Ren
+AU  - Kun Tan
+AU  - Zhi‐Pang Huang
+AU  - De‐Pin Li
+AU  - Xiao‐Wei Li
+AU  - Jian‐Ming Wang
+AU  - Ben‐Hui Chen
+AU  - Wen Xiao
+PY  - 2021
+JO  - Wildlife Society Bulletin
+DO  - 10.1002/wsb.1176
+UR  - https://doi.org/10.1002/wsb.1176
+VL  - 45
+IS  - 2
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-E4E80B16
+TI  - An automatic method for removing empty camera trap images using ensemble learning
+AU  - Deng‐Qi Yang
+AU  - Kun Tan
+AU  - Zhi‐Pang Huang
+AU  - Xiao‐Wei Li
+AU  - Ben‐Hui Chen
+AU  - Guo‐Peng Ren
+AU  - Wen Xiao
+PY  - 2021
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.7591
+UR  - https://doi.org/10.1002/ece3.7591
+VL  - 11
+IS  - 12
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-491AC915
+TI  - Are camera traps a reliable method for estimating activity patterns? A case study comparing technologies for estimating brown hyaena activity curves
+AU  - Sarah Edwards
+AU  - Jenny Noack
+AU  - Louis Heyns
+AU  - Diethardt Rodenwoldt
+PY  - 2021
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.175
+UR  - https://doi.org/10.1002/rse2.175
+VL  - 7
+IS  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-3682B7E8
+TI  - Assessing the camera trap methodologies used to estimate density of unmarked populations
+AU  - Pablo Palencia
+AU  - J. Marcus Rowcliffe
+AU  - Joaquín Vicente
+AU  - Pelayo Acevedo
+PY  - 2021
+JO  - Journal of Applied Ecology
+DO  - 10.1111/1365-2664.13913
+UR  - https://doi.org/10.1111/1365-2664.13913
+VL  - 58
+IS  - 8
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-56297DB7
+TI  - Automated location invariant animal detection in camera trap images using publicly available data sources
+AU  - Andrew Shepley
+AU  - Greg Falzon
+AU  - Paul Meek
+AU  - Paul Kwan
+PY  - 2021
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.7344
+UR  - https://doi.org/10.1002/ece3.7344
+VL  - 11
+IS  - 9
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-F0ED6964
+TI  - Automatic Camera-Trap Classification Using Wildlife-Specific Deep Learning in Nilgai Management
+AU  - Matthew Kutugata
+AU  - Jeremy Baumgardt
+AU  - John A. Goolsby
+AU  - Alexis E. Racelis
+PY  - 2021
+JO  - Journal of Fish and Wildlife Management
+DO  - 10.3996/jfwm-20-076
+UR  - https://doi.org/10.3996/jfwm-20-076
+VL  - 12
+IS  - 2
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-828AA506
+TI  - Camera trap placement for evaluating species richness, abundance, and activity
+AU  - Kamakshi S. Tanwar
+AU  - Ayan Sadhu
+AU  - Yadvendradev V. Jhala
+PY  - 2021
+JO  - Scientific Reports
+DO  - 10.1038/s41598-021-02459-w
+UR  - https://doi.org/10.1038/s41598-021-02459-w
+VL  - 11
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-49F9EDD0
+TI  - Desert bighorn sheep (Ovis canadensis) recognition from camera traps based on learned features
+AU  - Manuel Vargas-Felipe
+AU  - Luis Pellegrin
+AU  - Aldo A. Guevara-Carrizales
+AU  - A. Pastor López-Monroy
+AU  - Hugo Jair Escalante
+AU  - Jose A. Gonzalez-Fraga
+PY  - 2021
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2021.101328
+UR  - https://doi.org/10.1016/j.ecoinf.2021.101328
+VL  - 64
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-473265D9
+TI  - Estimating animal abundance and effort–precision relationship with camera trap distance sampling
+AU  - Noémie Cappelle
+AU  - Eric J. Howe
+AU  - Christophe Boesch
+AU  - Hjalmar S. Kühl
+PY  - 2021
+JO  - Ecosphere
+DO  - 10.1002/ecs2.3299
+UR  - https://doi.org/10.1002/ecs2.3299
+VL  - 12
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-A642DA14
+TI  - How reliable are motion‐triggered camera traps for detecting small mammals and birds in ecological studies?
+AU  - C. R. Ortmann
+AU  - S. D. Johnson
+PY  - 2021
+JO  - Journal of Zoology
+DO  - 10.1111/jzo.12849
+UR  - https://doi.org/10.1111/jzo.12849
+VL  - 313
+IS  - 3
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-6E17BCC1
+TI  - Linking camera‐trap data to taxonomy: Identifying photographs of morphologically similar chipmunks
+AU  - Fiona E. McKibben
+AU  - Jennifer K. Frey
+PY  - 2021
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.7801
+UR  - https://doi.org/10.1002/ece3.7801
+VL  - 11
+IS  - 14
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-E0111E08
+TI  - The Role of Citizen Science and Deep Learning in Camera Trapping
+AU  - Matyáš Adam
+AU  - Pavel Tomášek
+AU  - Jiří Lehejček
+AU  - Jakub Trojan
+AU  - Tomáš Jůnek
+PY  - 2021
+JO  - Sustainability
+DO  - 10.3390/su131810287
+UR  - https://doi.org/10.3390/su131810287
+VL  - 13
+IS  - 18
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-21F1E577
+TI  - An empirical evaluation of camera trap study design: How many, how long and when?
+AU  - Roland Kays
+AU  - Brian S. Arbogast
+AU  - Megan Baker‐Whatton
+AU  - Chris Beirne
+AU  - Hailey M. Boone
+AU  - Mark Bowler
+AU  - Santiago F. Burneo
+AU  - Michael V. Cove
+AU  - Ping Ding
+AU  - Santiago Espinosa
+AU  - André Luis Sousa Gonçalves
+AU  - Christopher P. Hansen
+AU  - Patrick A. Jansen
+AU  - Joseph M. Kolowski
+AU  - Travis W. Knowles
+AU  - Marcela Guimarães Moreira Lima
+AU  - Joshua Millspaugh
+AU  - William J. McShea
+AU  - Krishna Pacifici
+AU  - Arielle W. Parsons
+AU  - Brent S. Pease
+AU  - Francesco Rovero
+AU  - Fernanda Santos
+AU  - Stephanie G. Schuttler
+AU  - Douglas Sheil
+AU  - Xingfeng Si
+AU  - Matt Snider
+AU  - Wilson R. Spironello
+PY  - 2020
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.13370
+UR  - https://doi.org/10.1111/2041-210x.13370
+VL  - 11
+IS  - 6
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-BC0AED2F
+TI  - Automated detection of European wild mammal species in camera trap images with an existing and pre-trained computer vision model
+AU  - Christin Carl
+AU  - Fiona Schönfeld
+AU  - Ingolf Profft
+AU  - Alisa Klamm
+AU  - Dirk Landgraf
+PY  - 2020
+JO  - European Journal of Wildlife Research
+DO  - 10.1007/s10344-020-01404-y
+UR  - https://doi.org/10.1007/s10344-020-01404-y
+VL  - 66
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-233AC79A
+TI  - Camera settings and biome influence the accuracy of citizen science approaches to camera trap image classification
+AU  - Nicole Egna
+AU  - David O'Connor
+AU  - Jenna Stacy‐Dawes
+AU  - Mathias W. Tobler
+AU  - Nicholas Pilfold
+AU  - Kristin Neilson
+AU  - Brooke Simmons
+AU  - Elizabeth Oneita Davis
+AU  - Mark Bowler
+AU  - Julian Fennessy
+AU  - Jenny Anne Glikman
+AU  - Lexson Larpei
+AU  - Jesus Lekalgitele
+AU  - Ruth Lekupanai
+AU  - Johnson Lekushan
+AU  - Lekuran Lemingani
+AU  - Joseph Lemirgishan
+AU  - Daniel Lenaipa
+AU  - Jonathan Lenyakopiro
+AU  - Ranis Lenalakiti Lesipiti
+AU  - Masenge Lororua
+AU  - Arthur Muneza
+AU  - Sebastian Rabhayo
+AU  - Symon Masiaine Ole Ranah
+AU  - Kirstie Ruppert
+AU  - Megan Owen
+PY  - 2020
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.6722
+UR  - https://doi.org/10.1002/ece3.6722
+VL  - 10
+IS  - 21
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-27009970
+TI  - Component processes of detection probability in camera-trap studies: understanding the occurrence of false-negatives
+AU  - Melanie A. Findlay
+AU  - Robert A. Briers
+AU  - Patrick J. C. White
+PY  - 2020
+JO  - Mammal Research
+DO  - 10.1007/s13364-020-00478-y
+UR  - https://doi.org/10.1007/s13364-020-00478-y
+VL  - 65
+IS  - 2
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-4EF4B29C
+TI  - Improving the accessibility and transferability of machine learning algorithms for identification of animals in camera trap images: MLWIC2
+AU  - Michael A. Tabak
+AU  - Mohammad S. Norouzzadeh
+AU  - David W. Wolfson
+AU  - Erica J. Newton
+AU  - Raoul K. Boughton
+AU  - Jacob S. Ivan
+AU  - Eric A. Odell
+AU  - Eric S. Newkirk
+AU  - Reesa Y. Conrey
+AU  - Jennifer Stenglein
+AU  - Fabiola Iannarilli
+AU  - John Erb
+AU  - Ryan K. Brook
+AU  - Amy J. Davis
+AU  - Jesse Lewis
+AU  - Daniel P. Walsh
+AU  - James C. Beasley
+AU  - Kurt C. VerCauteren
+AU  - Jeff Clune
+AU  - Ryan S. Miller
+PY  - 2020
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.6692
+UR  - https://doi.org/10.1002/ece3.6692
+VL  - 10
+IS  - 19
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-39EBF69E
+TI  - Innovations in Camera Trapping Technology and Approaches: The Integration of Citizen Science and Artificial Intelligence
+AU  - Siân E. Green
+AU  - Jonathan P. Rees
+AU  - Philip A. Stephens
+AU  - Russell A. Hill
+AU  - Anthony J. Giordano
+PY  - 2020
+JO  - Animals
+DO  - 10.3390/ani10010132
+UR  - https://doi.org/10.3390/ani10010132
+VL  - 10
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-D65482D4
+TI  - The effect of camera-trap viewshed obstruction on wildlife detection: implications for inference
+AU  - Remington J. Moll
+AU  - Waldemar Ortiz-Calo
+AU  - Jonathon D. Cepek
+AU  - Patrick D. Lorch
+AU  - Patricia M. Dennis
+AU  - Terry Robison
+AU  - Robert A. Montgomery
+PY  - 2020
+JO  - Wildlife Research
+DO  - 10.1071/wr19004
+UR  - https://doi.org/10.1071/wr19004
+VL  - 47
+IS  - 2
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-CE2505D5
+TI  - Wildlife Insights: A Platform to Maximize the Potential of Camera Trap and Other Passive Sensor Wildlife Data for the Planet
+AU  - Jorge A Ahumada
+AU  - Eric Fegraus
+AU  - Tanya Birch
+AU  - Nicole Flores
+AU  - Roland Kays
+AU  - Timothy G O’Brien
+AU  - Jonathan Palmer
+AU  - Stephanie Schuttler
+AU  - Jennifer Y Zhao
+AU  - Walter Jetz
+AU  - Margaret Kinnaird
+AU  - Sayali Kulkarni
+AU  - Arnaud Lyet
+AU  - David Thau
+AU  - Michelle Duong
+AU  - Ruth Oliver
+AU  - Anthony Dancer
+PY  - 2020
+JO  - Environmental Conservation
+DO  - 10.1017/s0376892919000298
+UR  - https://doi.org/10.1017/s0376892919000298
+VL  - 47
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-D63A82FE
+TI  - Zilong: A tool to identify empty images in camera-trap data
+AU  - Weideng Wei
+AU  - Gai Luo
+AU  - Jianghong Ran
+AU  - Jing Li
+PY  - 2020
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2019.101021
+UR  - https://doi.org/10.1016/j.ecoinf.2019.101021
+VL  - 55
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-1A5AD4F0
+TI  - Animal Scanner: Software for classifying humans, animals, and empty frames in camera trap images
+AU  - Hayder Yousif
+AU  - Jianhe Yuan
+AU  - Roland Kays
+AU  - Zhihai He
+PY  - 2019
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.4747
+UR  - https://doi.org/10.1002/ece3.4747
+VL  - 9
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-11DF87D3
+TI  - Camera‐trapping version 3.0: current constraints and future priorities for development
+AU  - Paul Glover‐Kapfer
+AU  - Carolina A. Soto‐Navarro
+AU  - Oliver R. Wearn
+PY  - 2019
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.106
+UR  - https://doi.org/10.1002/rse2.106
+VL  - 5
+IS  - 3
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-09875AA0
+TI  - ClassifyMe: A Field-Scouting Software for the Identification of Wildlife in Camera Trap Images
+AU  - Greg Falzon
+AU  - Christopher Lawson
+AU  - Ka-Wai Cheung
+AU  - Karl Vernes
+AU  - Guy A. Ballard
+AU  - Peter J. S. Fleming
+AU  - Alistair S. Glen
+AU  - Heath Milne
+AU  - Atalya Mather-Zardain
+AU  - Paul D. Meek
+PY  - 2019
+JO  - Animals
+DO  - 10.3390/ani10010058
+UR  - https://doi.org/10.3390/ani10010058
+VL  - 10
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-F37EA3F4
+TI  - Design patterns for wildlife‐related camera trap image analysis
+AU  - Saul Greenberg
+AU  - Theresa Godin
+AU  - Jesse Whittington
+PY  - 2019
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.5767
+UR  - https://doi.org/10.1002/ece3.5767
+VL  - 9
+IS  - 24
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-57FB669D
+TI  - Framing pictures: A conceptual framework to identify and correct for biases in detection probability of camera traps enabling multi‐species comparison
+AU  - Tim R. Hofmeester
+AU  - Joris P. G. M. Cromsigt
+AU  - John Odden
+AU  - Henrik Andrén
+AU  - Jonas Kindberg
+AU  - John D. C. Linnell
+PY  - 2019
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.4878
+UR  - https://doi.org/10.1002/ece3.4878
+VL  - 9
+IS  - 4
+KW  - 2. Species data analysis and workflows
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-E19D93A5
+TI  - Identifying animal species in camera trap images using deep learning and citizen science
+AU  - Marco Willi
+AU  - Ross T. Pitman
+AU  - Anabelle W. Cardoso
+AU  - Christina Locke
+AU  - Alexandra Swanson
+AU  - Amy Boyer
+AU  - Marten Veldthuis
+AU  - Lucy Fortson
+PY  - 2019
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.13099
+UR  - https://doi.org/10.1111/2041-210x.13099
+VL  - 10
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-A193030D
+TI  - Machine learning to classify animal species in camera trap images: Applications in ecology
+AU  - Michael A. Tabak
+AU  - Mohammad S. Norouzzadeh
+AU  - David W. Wolfson
+AU  - Steven J. Sweeney
+AU  - Kurt C. Vercauteren
+AU  - Nathan P. Snow
+AU  - Joseph M. Halseth
+AU  - Paul A. Di Salvo
+AU  - Jesse S. Lewis
+AU  - Michael D. White
+AU  - Ben Teton
+AU  - James C. Beasley
+AU  - Peter E. Schlichting
+AU  - Raoul K. Boughton
+AU  - Bethany Wight
+AU  - Eric S. Newkirk
+AU  - Jacob S. Ivan
+AU  - Eric A. Odell
+AU  - Ryan K. Brook
+AU  - Paul M. Lukacs
+AU  - Anna K. Moeller
+AU  - Elizabeth G. Mandeville
+AU  - Jeff Clune
+AU  - Ryan S. Miller
+PY  - 2019
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.13120
+UR  - https://doi.org/10.1111/2041-210x.13120
+VL  - 10
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-27A783D3
+TI  - Past, present and future approaches using computer vision for animal re‐identification from camera trap data
+AU  - Stefan Schneider
+AU  - Graham W. Taylor
+AU  - Stefan Linquist
+AU  - Stefan C. Kremer
+PY  - 2019
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.13133
+UR  - https://doi.org/10.1111/2041-210x.13133
+VL  - 10
+IS  - 4
+KW  - 1. Enhancing identification models
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-9DC522F1
+TI  - oSCR: a spatial capture–recapture R package for inference about spatial ecological processes
+AU  - Chris Sutherland
+AU  - J. Andrew Royle
+AU  - Daniel W. Linden
+PY  - 2019
+JO  - Ecography
+DO  - 10.1111/ecog.04551
+UR  - https://doi.org/10.1111/ecog.04551
+VL  - 42
+IS  - 9
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-02486C97
+TI  - A gentle introduction to camera‐trap data analysis
+AU  - Rahel Sollmann
+PY  - 2018
+JO  - African Journal of Ecology
+DO  - 10.1111/aje.12557
+UR  - https://doi.org/10.1111/aje.12557
+VL  - 56
+IS  - 4
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-B19872EC
+TI  - Animal movement affects interpretation of occupancy models from camera‐trap surveys of unmarked animals
+AU  - Eric W. Neilson
+AU  - Tal Avgar
+AU  - A. Cole Burton
+AU  - Kate Broadley
+AU  - Stan Boutin
+PY  - 2018
+JO  - Ecosphere
+DO  - 10.1002/ecs2.2092
+UR  - https://doi.org/10.1002/ecs2.2092
+VL  - 9
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-CC48D779
+TI  - Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning
+AU  - Mohammad Sadegh Norouzzadeh
+AU  - Anh Nguyen
+AU  - Margaret Kosmala
+AU  - Alexandra Swanson
+AU  - Meredith S. Palmer
+AU  - Craig Packer
+AU  - Jeff Clune
+PY  - 2018
+JO  - Proceedings of the National Academy of Sciences
+DO  - 10.1073/pnas.1719367115
+UR  - https://doi.org/10.1073/pnas.1719367115
+VL  - 115
+IS  - 25
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-ADE08D41
+TI  - Camelot —intuitive software for camera-trap data management
+AU  - Heidi Hendry
+AU  - Christopher Mann
+PY  - 2018
+JO  - Oryx
+DO  - 10.1017/s0030605317001818
+UR  - https://doi.org/10.1017/s0030605317001818
+VL  - 52
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-72B9E55F
+TI  - Detecting Animals in Infrared Images from Camera-Traps
+AU  - P. Follmann
+AU  - B. Radig
+PY  - 2018
+JO  - Pattern Recognition and Image Analysis
+DO  - 10.1134/s1054661818040107
+UR  - https://doi.org/10.1134/s1054661818040107
+VL  - 28
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-AFA1AAB9
+TI  - Economical crowdsourcing for camera trap image classification
+AU  - Pen‐Yuan Hsing
+AU  - Steven Bradley
+AU  - Vivien T. Kent
+AU  - Russell A. Hill
+AU  - Graham C. Smith
+AU  - Mark J. Whittingham
+AU  - Jim Cokill
+AU  - Derek Crawley
+AU  - MammalWeb volunteers
+AU  - Philip A. Stephens
+PY  - 2018
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.84
+UR  - https://doi.org/10.1002/rse2.84
+VL  - 4
+IS  - 4
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-C73F891E
+TI  - Estimating animal density without individual recognition using information derivable exclusively from camera traps
+AU  - Yoshihiro Nakashima
+AU  - Keita Fukasawa
+AU  - Hiromitsu Samejima
+PY  - 2018
+JO  - Journal of Applied Ecology
+DO  - 10.1111/1365-2664.13059
+UR  - https://doi.org/10.1111/1365-2664.13059
+VL  - 55
+IS  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-BE1F2E1A
+TI  - Evaluating relative abundance indices for terrestrial herbivores from large‐scale camera trap surveys
+AU  - Meredith S. Palmer
+AU  - Alexandra Swanson
+AU  - Margaret Kosmala
+AU  - Todd Arnold
+AU  - Craig Packer
+PY  - 2018
+JO  - African Journal of Ecology
+DO  - 10.1111/aje.12566
+UR  - https://doi.org/10.1111/aje.12566
+VL  - 56
+IS  - 4
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-8A02CF50
+TI  - Identification of threatened rodent species using infrared and white-flash camera traps
+AU  - Phoebe A. Burns
+AU  - Marissa L. Parrott
+AU  - Kevin C. Rowe
+AU  - Benjamin L. Phillips
+PY  - 2018
+JO  - Australian Mammalogy
+DO  - 10.1071/am17016
+UR  - https://doi.org/10.1071/am17016
+VL  - 40
+IS  - 2
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-DBE3A0CE
+TI  - On species richness and rarefaction: size- and coverage-based techniques quantify different characteristics of richness change in biodiversity
+AU  - Hideyasu Shimadzu
+PY  - 2018
+JO  - Journal of Mathematical Biology
+DO  - 10.1007/s00285-018-1255-5
+UR  - https://doi.org/10.1007/s00285-018-1255-5
+VL  - 77
+IS  - 5
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-A6BB510C
+TI  - Software to facilitate and streamline camera trap data management: A review
+AU  - Stuart Young
+AU  - Johanna Rode‐Margono
+AU  - Rajan Amin
+PY  - 2018
+JO  - Ecology and Evolution
+DO  - 10.1002/ece3.4464
+UR  - https://doi.org/10.1002/ece3.4464
+VL  - 8
+IS  - 19
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-45C4014A
+TI  - Spatial capture–recapture with partial identity: An application to camera traps
+AU  - Ben C. Augustine
+AU  - J. Andrew Royle
+AU  - Marcella J. Kelly
+AU  - Christopher B. Satter
+AU  - Robert S. Alonso
+AU  - Erin E. Boydston
+AU  - Kevin R. Crooks
+PY  - 2018
+JO  - The Annals of Applied Statistics
+DO  - 10.1214/17-aoas1091
+UR  - https://doi.org/10.1214/17-aoas1091
+VL  - 12
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-497775C0
+TI  - Unifying population and landscape ecology with spatial capture–recapture
+AU  - J. Andrew Royle
+AU  - Angela K. Fuller
+AU  - Christopher Sutherland
+PY  - 2018
+JO  - Ecography
+DO  - 10.1111/ecog.03170
+UR  - https://doi.org/10.1111/ecog.03170
+VL  - 41
+IS  - 3
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-7E6C5B3D
+TI  - A review of camera trapping for conservation behaviour research
+AU  - Anthony Caravaggi
+AU  - Peter B. Banks
+AU  - A Cole Burton
+AU  - Caroline M. V. Finlay
+AU  - Peter M. Haswell
+AU  - Matt W. Hayward
+AU  - Marcus J. Rowcliffe
+AU  - Mike D. Wood
+PY  - 2017
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.48
+UR  - https://doi.org/10.1002/rse2.48
+VL  - 3
+IS  - 3
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-D7C605CF
+TI  - A simple method for estimating the effective detection distance of camera traps
+AU  - Tim R. Hofmeester
+AU  - J. Marcus Rowcliffe
+AU  - Patrick A. Jansen
+PY  - 2017
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.25
+UR  - https://doi.org/10.1002/rse2.25
+VL  - 3
+IS  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-B0F36DEE
+TI  - Animal detections vary among commonly used camera trap models
+AU  - Michael M. Driessen
+AU  - Peter J. Jarman
+AU  - Shannon Troy
+AU  - Sophia Callander
+PY  - 2017
+JO  - Wildlife Research
+DO  - 10.1071/wr16228
+UR  - https://doi.org/10.1071/wr16228
+VL  - 44
+IS  - 4
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-73941546
+TI  - Best practices and software for the management and sharing of camera trap data for small and large scales studies
+AU  - Lorraine Scotson
+AU  - Lisa R. Johnston
+AU  - Fabiola Iannarilli
+AU  - Oliver R. Wearn
+AU  - Jayasilan Mohd‐Azlan
+AU  - Wai Ming Wong
+AU  - Thomas N. E. Gray
+AU  - Yoan Dinata
+AU  - Ai Suzuki
+AU  - Clarie E. Willard
+AU  - Jackson Frechette
+AU  - Brent Loken
+AU  - Robert Steinmetz
+AU  - Alexander M. Moßbrucker
+AU  - Gopalasamy Reuben Clements
+AU  - John Fieberg
+PY  - 2017
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.54
+UR  - https://doi.org/10.1002/rse2.54
+VL  - 3
+IS  - 3
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-F7F1C01F
+TI  - Camera trap placement and the potential for bias due to trails and other features
+AU  - Joseph M. Kolowski
+AU  - Tavis D. Forrester
+PY  - 2017
+JO  - PLOS ONE
+DO  - 10.1371/journal.pone.0186679
+UR  - https://doi.org/10.1371/journal.pone.0186679
+VL  - 12
+IS  - 10
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-E9FE78ED
+TI  - Distance sampling with camera traps
+AU  - Eric J. Howe
+AU  - Stephen T. Buckland
+AU  - Marie‐Lyne Després‐Einspenner
+AU  - Hjalmar S. Kühl
+PY  - 2017
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.12790
+UR  - https://doi.org/10.1111/2041-210x.12790
+VL  - 8
+IS  - 11
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-05FBDC20
+TI  - Do occupancy or detection rates from camera traps reflect deer density?
+AU  - Arielle Waldstein Parsons
+AU  - Tavis Forrester
+AU  - William J McShea
+AU  - Megan C Baker-Whatton
+AU  - Joshua J Millspaugh
+AU  - Roland Kays
+PY  - 2017
+JO  - Journal of Mammalogy
+DO  - 10.1093/jmammal/gyx128
+UR  - https://doi.org/10.1093/jmammal/gyx128
+VL  - 98
+IS  - 6
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-DFE8B958
+TI  - Investigating animal activity patterns and temporal niche partitioning using camera‐trap data: challenges and opportunities
+AU  - Sandra Frey
+AU  - Jason T. Fisher
+AU  - A. Cole Burton
+AU  - John P. Volpe
+PY  - 2017
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.60
+UR  - https://doi.org/10.1002/rse2.60
+VL  - 3
+IS  - 3
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-0BECC1C9
+TI  - Scaling‐up camera traps: monitoring the planet's biodiversity with networks of remote sensors
+AU  - Robin Steenweg
+AU  - Mark Hebblewhite
+AU  - Roland Kays
+AU  - Jorge Ahumada
+AU  - Jason T Fisher
+AU  - Cole Burton
+AU  - Susan E Townsend
+AU  - Chris Carbone
+AU  - J Marcus Rowcliffe
+AU  - Jesse Whittington
+AU  - Jedediah Brodie
+AU  - J Andrew Royle
+AU  - Adam Switalski
+AU  - Anthony P Clevenger
+AU  - Nicole Heim
+AU  - Lindsey N Rich
+PY  - 2017
+JO  - Frontiers in Ecology and the Environment
+DO  - 10.1002/fee.1448
+UR  - https://doi.org/10.1002/fee.1448
+VL  - 15
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-9C6EE7BB
+TI  - Towards automatic wild animal monitoring: Identification of animal species in camera-trap images using very deep convolutional neural networks
+AU  - Alexander Gomez Villa
+AU  - Augusto Salazar
+AU  - Francisco Vargas
+PY  - 2017
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2017.07.004
+UR  - https://doi.org/10.1016/j.ecoinf.2017.07.004
+VL  - 41
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-3885293C
+TI  - AnimalFinder: A semi-automated system for animal detection in time-lapse camera trap images
+AU  - Jennifer L. Price Tack
+AU  - Brian S. West
+AU  - Conor P. McGowan
+AU  - Stephen S. Ditchkoff
+AU  - Stanley J. Reeves
+AU  - Allison C. Keever
+AU  - James B. Grand
+PY  - 2016
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2016.11.003
+UR  - https://doi.org/10.1016/j.ecoinf.2016.11.003
+VL  - 36
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-65264C29
+TI  - C pw Photo Warehouse: a custom database to facilitate archiving, identifying, summarizing and managing photo data collected from camera traps
+AU  - Jacob S. Ivan
+AU  - Eric S. Newkirk
+PY  - 2016
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/2041-210x.12503
+UR  - https://doi.org/10.1111/2041-210x.12503
+VL  - 7
+IS  - 4
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-0A29001C
+TI  - Cost-efficient effort allocation for camera-trap occupancy surveys of mammals
+AU  - Nicolás Gálvez
+AU  - Gurutzeta Guillera-Arroita
+AU  - Byron J.T. Morgan
+AU  - Zoe G. Davies
+PY  - 2016
+JO  - Biological Conservation
+DO  - 10.1016/j.biocon.2016.10.019
+UR  - https://doi.org/10.1016/j.biocon.2016.10.019
+VL  - 204
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-0341F175
+TI  - How do passive infrared triggered camera traps operate and why does it matter? Breaking down common misconceptions
+AU  - Dustin J. Welbourne
+AU  - Andrew W. Claridge
+AU  - David J. Paull
+AU  - Andrew Lambert
+PY  - 2016
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.20
+UR  - https://doi.org/10.1002/rse2.20
+VL  - 2
+IS  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-CAB12BE5
+TI  - Wildlife speed cameras: measuring animal travel speed and day range using camera traps
+AU  - J. Marcus Rowcliffe
+AU  - Patrick A. Jansen
+AU  - Roland Kays
+AU  - Bart Kranstauber
+AU  - Chris Carbone
+PY  - 2016
+JO  - Remote Sensing in Ecology and Conservation
+DO  - 10.1002/rse2.17
+UR  - https://doi.org/10.1002/rse2.17
+VL  - 2
+IS  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-31D0E4A6
+TI  - Advances in camera trap data management tools: Towards collaborative development and integration with GIS
+AU  - B. Zaragozí
+AU  - A. Belda
+AU  - P. Giménez
+AU  - J.T. Navarro
+AU  - A. Bonet
+PY  - 2015
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2015.08.001
+UR  - https://doi.org/10.1016/j.ecoinf.2015.08.001
+VL  - 30
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-182F9FEC
+TI  - REVIEW: Wildlife camera trapping: a review and recommendations for linking surveys to ecological processes
+AU  - A. Cole Burton
+AU  - Eric Neilson
+AU  - Dario Moreira
+AU  - Andrew Ladle
+AU  - Robin Steenweg
+AU  - Jason T. Fisher
+AU  - Erin Bayne
+AU  - Stan Boutin
+PY  - 2015
+JO  - Journal of Applied Ecology
+DO  - 10.1111/1365-2664.12432
+UR  - https://doi.org/10.1111/1365-2664.12432
+VL  - 52
+IS  - 3
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-B4404FE5
+TI  - Random versus Game Trail-Based Camera Trap Placement Strategy for Monitoring Terrestrial Mammal Communities
+AU  - Jeremy J. Cusack
+AU  - Amy J. Dickman
+AU  - J. Marcus Rowcliffe
+AU  - Chris Carbone
+AU  - David W. Macdonald
+AU  - Tim Coulson
+PY  - 2015
+JO  - PLOS ONE
+DO  - 10.1371/journal.pone.0126373
+UR  - https://doi.org/10.1371/journal.pone.0126373
+VL  - 10
+IS  - 5
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-4068F21F
+TI  - Spatiotemporal hierarchical modelling of species richness and occupancy using camera trap data
+AU  - Mathias W. Tobler
+AU  - Alfonso Zúñiga Hartley
+AU  - Samia E. Carrillo‐Percastegui
+AU  - George V. N. Powell
+PY  - 2015
+JO  - Journal of Applied Ecology
+DO  - 10.1111/1365-2664.12399
+UR  - https://doi.org/10.1111/1365-2664.12399
+VL  - 52
+IS  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-0C90E3FF
+TI  - The pitfalls of wildlife camera trapping as a survey tool in Australia
+AU  - Paul D. Meek
+AU  - Guy-Anthony Ballard
+AU  - Peter J. S. Fleming
+PY  - 2015
+JO  - Australian Mammalogy
+DO  - 10.1071/am14023
+UR  - https://doi.org/10.1071/am14023
+VL  - 37
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-22DD062B
+TI  - EstimateS turns 20: statistical estimation of species richness and shared species from samples, with non‐parametric extrapolation
+AU  - Robert K. Colwell
+AU  - Johanna E. Elsensohn
+PY  - 2014
+JO  - Ecography
+DO  - 10.1111/ecog.00814
+UR  - https://doi.org/10.1111/ecog.00814
+VL  - 37
+IS  - 6
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-31108EF0
+TI  - How long is enough to detect terrestrial animals? Estimating the minimum trapping effort on camera traps
+AU  - Xingfeng Si
+AU  - Roland Kays
+AU  - Ping Ding
+PY  - 2014
+JO  - PeerJ
+DO  - 10.7717/peerj.374
+UR  - https://doi.org/10.7717/peerj.374
+VL  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-A35773DE
+TI  - Ignoring Imperfect Detection in Biological Surveys Is Dangerous: A Response to ‘Fitting and Interpreting Occupancy Models'
+AU  - Gurutzeta Guillera-Arroita
+AU  - José J. Lahoz-Monfort
+AU  - Darryl I. MacKenzie
+AU  - Brendan A. Wintle
+AU  - Michael A. McCarthy
+PY  - 2014
+JO  - PLoS ONE
+DO  - 10.1371/journal.pone.0099571
+UR  - https://doi.org/10.1371/journal.pone.0099571
+VL  - 9
+IS  - 7
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-E68EDCE3
+TI  - Rarefaction and extrapolation with Hill numbers: a framework for sampling and estimation in species diversity studies
+AU  - Anne Chao
+AU  - Nicholas J. Gotelli
+AU  - T. C. Hsieh
+AU  - Elizabeth L. Sander
+AU  - K. H. Ma
+AU  - Robert K. Colwell
+AU  - Aaron M. Ellison
+PY  - 2014
+JO  - Ecological Monographs
+DO  - 10.1890/13-0133.1
+UR  - https://doi.org/10.1890/13-0133.1
+VL  - 84
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-1F583459
+TI  - Software for minimalistic data management in large camera trap studies
+AU  - Yathin S. Krishnappa
+AU  - Wendy C. Turner
+PY  - 2014
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2014.06.004
+UR  - https://doi.org/10.1016/j.ecoinf.2014.06.004
+VL  - 24
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-8EE9B3D7
+TI  - Trap Configuration and Spacing Influences Parameter Estimates in Spatial Capture-Recapture Models
+AU  - Catherine C. Sun
+AU  - Angela K. Fuller
+AU  - J. Andrew Royle
+PY  - 2014
+JO  - PLoS ONE
+DO  - 10.1371/journal.pone.0088025
+UR  - https://doi.org/10.1371/journal.pone.0088025
+VL  - 9
+IS  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-B54C7936
+TI  - Automated identification of animal species in camera trap images
+AU  - Xiaoyuan Yu
+AU  - Jiangping Wang
+AU  - Roland Kays
+AU  - Patrick A Jansen
+AU  - Tianjiang Wang
+AU  - Thomas Huang
+PY  - 2013
+JO  - EURASIP Journal on Image and Video Processing
+DO  - 10.1186/1687-5281-2013-52
+UR  - https://doi.org/10.1186/1687-5281-2013-52
+VL  - 2013
+IS  - 1
+KW  - 1. Enhancing identification models
+KW  - 3. Detection, accuracy and confusion
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-F43632FF
+TI  - Monitoring the Status and Trends of Tropical Forest Terrestrial Vertebrate Communities from Camera Trap Data: A Tool for Conservation
+AU  - Jorge A. Ahumada
+AU  - Johanna Hurtado
+AU  - Diego Lizcano
+PY  - 2013
+JO  - PLoS ONE
+DO  - 10.1371/journal.pone.0073707
+UR  - https://doi.org/10.1371/journal.pone.0073707
+VL  - 8
+IS  - 9
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-74708464
+TI  - Risky business or simple solution – Relative abundance indices from camera-trapping
+AU  - Rahel Sollmann
+AU  - Azlan Mohamed
+AU  - Hiromitsu Samejima
+AU  - Andreas Wilting
+PY  - 2013
+JO  - Biological Conservation
+DO  - 10.1016/j.biocon.2012.12.025
+UR  - https://doi.org/10.1016/j.biocon.2012.12.025
+VL  - 159
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-F2A98ACC
+TI  - Towards good practice guidance in using camera‐traps in ecology: influence of sampling design on validity of ecological inferences
+AU  - Sandra Hamel
+AU  - Siw T. Killengreen
+AU  - John‐Andre Henden
+AU  - Nina E. Eide
+AU  - Lars Roed‐Eriksen
+AU  - Rolf A. Ims
+AU  - Nigel G. Yoccoz
+PY  - 2013
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/j.2041-210x.2012.00262.x
+UR  - https://doi.org/10.1111/j.2041-210x.2012.00262.x
+VL  - 4
+IS  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-81BB6E4F
+TI  - A critique of density estimation from camera‐trap data
+AU  - Rebecca J. Foster
+AU  - Bart J. Harmsen
+PY  - 2012
+JO  - The Journal of Wildlife Management
+DO  - 10.1002/jwmg.275
+UR  - https://doi.org/10.1002/jwmg.275
+VL  - 76
+IS  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-DFC8FC98
+TI  - Designing studies to detect differences in species occupancy: power analysis under imperfect detection
+AU  - Gurutzeta Guillera‐Arroita
+AU  - José J. Lahoz‐Monfort
+PY  - 2012
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/j.2041-210x.2012.00225.x
+UR  - https://doi.org/10.1111/j.2041-210x.2012.00225.x
+VL  - 3
+IS  - 5
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-C75F8AFE
+TI  - Evaluating the predictive abilities of community occupancy models using AUC while accounting for imperfect detection
+AU  - Elise F. Zipkin
+AU  - Evan H. Campbell Grant
+AU  - William F. Fagan
+PY  - 2012
+JO  - Ecological Applications
+DO  - 10.1890/11-1936.1
+UR  - https://doi.org/10.1890/11-1936.1
+VL  - 22
+IS  - 7
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-3DF5C6B5
+TI  - How Does Spatial Study Design Influence Density Estimates from Spatial Capture-Recapture Models?
+AU  - Rahel Sollmann
+AU  - Beth Gardner
+AU  - Jerrold L. Belant
+PY  - 2012
+JO  - PLoS ONE
+DO  - 10.1371/journal.pone.0034575
+UR  - https://doi.org/10.1371/journal.pone.0034575
+VL  - 7
+IS  - 4
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-C69B1C3D
+TI  - Community structure and diversity of tropical forest mammals: data from a global camera trap network
+AU  - Jorge A. Ahumada
+AU  - Carlos E. F. Silva
+AU  - Krisna Gajapersad
+AU  - Chris Hallam
+AU  - Johanna Hurtado
+AU  - Emanuel Martin
+AU  - Alex McWilliam
+AU  - Badru Mugerwa
+AU  - Tim O'Brien
+AU  - Francesco Rovero
+AU  - Douglas Sheil
+AU  - Wilson R. Spironello
+AU  - Nurul Winarni
+AU  - Sandy J. Andelman
+PY  - 2011
+JO  - Philosophical Transactions of the Royal Society B: Biological Sciences
+DO  - 10.1098/rstb.2011.0115
+UR  - https://doi.org/10.1098/rstb.2011.0115
+VL  - 366
+IS  - 1578
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-1BD37329
+TI  - Data acquisition and management software for camera trap data: A case study from the TEAM Network
+AU  - Eric H. Fegraus
+AU  - Kai Lin
+AU  - Jorge A. Ahumada
+AU  - Chaitan Baru
+AU  - Sandeep Chandra
+AU  - Choonhan Youn
+PY  - 2011
+JO  - Ecological Informatics
+DO  - 10.1016/j.ecoinf.2011.06.003
+UR  - https://doi.org/10.1016/j.ecoinf.2011.06.003
+VL  - 6
+IS  - 6
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-26561BC8
+TI  - Estimation of population density by spatially explicit capture–recapture analysis of data from area searches
+AU  - Murray G. Efford
+PY  - 2011
+JO  - Ecology
+DO  - 10.1890/11-0332.1
+UR  - https://doi.org/10.1890/11-0332.1
+VL  - 92
+IS  - 12
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-BBE23185
+TI  - Quantifying the sensitivity of camera traps: an adapted distance sampling approach
+AU  - J. Marcus Rowcliffe
+AU  - Chris Carbone
+AU  - Patrick A. Jansen
+AU  - Roland Kays
+AU  - Bart Kranstauber
+PY  - 2011
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/j.2041-210x.2011.00094.x
+UR  - https://doi.org/10.1111/j.2041-210x.2011.00094.x
+VL  - 2
+IS  - 5
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-ED840EFB
+TI  - unmarked : An R Package for Fitting Hierarchical Models of Wildlife Occurrence and Abundance
+AU  - Ian Fiske
+AU  - Richard Chandler
+PY  - 2011
+JO  - Journal of Statistical Software
+DO  - 10.18637/jss.v043.i10
+UR  - https://doi.org/10.18637/jss.v043.i10
+VL  - 43
+IS  - 10
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-5F256B30
+TI  - Design of occupancy studies with imperfect detection
+AU  - Gurutzeta Guillera‐Arroita
+AU  - Martin S. Ridout
+AU  - Byron J. T. Morgan
+PY  - 2010
+JO  - Methods in Ecology and Evolution
+DO  - 10.1111/j.2041-210x.2010.00017.x
+UR  - https://doi.org/10.1111/j.2041-210x.2010.00017.x
+VL  - 1
+IS  - 2
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-B37A3FB9
+TI  - Spatially explicit inference for open populations: estimating demographic parameters from camera‐trap studies
+AU  - Beth Gardner
+AU  - Juan Reppucci
+AU  - Mauro Lucherini
+AU  - J. Andrew Royle
+PY  - 2010
+JO  - Ecology
+DO  - 10.1890/09-0804.1
+UR  - https://doi.org/10.1890/09-0804.1
+VL  - 91
+IS  - 11
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-CC3BE03D
+TI  - A hierarchical model for estimating density in camera‐trap studies
+AU  - J. Andrew Royle
+AU  - James D. Nichols
+AU  - K. Ullas Karanth
+AU  - Arjun M. Gopalaswamy
+PY  - 2009
+JO  - Journal of Applied Ecology
+DO  - 10.1111/j.1365-2664.2008.01578.x
+UR  - https://doi.org/10.1111/j.1365-2664.2008.01578.x
+VL  - 46
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-F6CBA3E5
+TI  - Bayesian inference in camera trapping studies for a class of spatial capture–recapture models
+AU  - J. Andrew Royle
+AU  - K. Ullas Karanth
+AU  - Arjun M. Gopalaswamy
+AU  - N. Samba Kumar
+PY  - 2009
+JO  - Ecology
+DO  - 10.1890/08-1481.1
+UR  - https://doi.org/10.1890/08-1481.1
+VL  - 90
+IS  - 11
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-5ECA8804
+TI  - Camera trapping photographic rate as an index of density in forest ungulates
+AU  - Francesco Rovero
+AU  - Andrew R. Marshall
+PY  - 2009
+JO  - Journal of Applied Ecology
+DO  - 10.1111/j.1365-2664.2009.01705.x
+UR  - https://doi.org/10.1111/j.1365-2664.2009.01705.x
+VL  - 46
+IS  - 5
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-09732015
+TI  - Occupancy estimation and the closure assumption
+AU  - Christopher T. Rota
+AU  - Robert J. Fletcher Jr
+AU  - Robert M. Dorazio
+AU  - Matthew G. Betts
+PY  - 2009
+JO  - Journal of Applied Ecology
+DO  - 10.1111/j.1365-2664.2009.01734.x
+UR  - https://doi.org/10.1111/j.1365-2664.2009.01734.x
+VL  - 46
+IS  - 6
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-9A2B1B11
+TI  - Comparing methods for sampling large- and medium-sized mammals: camera traps and track plots
+AU  - Maria Carolina Lyra-Jorge
+AU  - Giordano Ciocheti
+AU  - Vânia Regina Pivello
+AU  - Sérgio Tadeu Meirelles
+PY  - 2008
+JO  - European Journal of Wildlife Research
+DO  - 10.1007/s10344-008-0205-8
+UR  - https://doi.org/10.1007/s10344-008-0205-8
+VL  - 54
+IS  - 4
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-787402BD
+TI  - OCCUPANCY ESTIMATION AND MODELING WITH MULTIPLE STATES AND STATE UNCERTAINTY
+AU  - James D. Nichols
+AU  - James E. Hines
+AU  - Darryl I. Mackenzie
+AU  - Mark E. Seamans
+AU  - R. J. Gutiérrez
+PY  - 2007
+JO  - Ecology
+DO  - 10.1890/06-1474
+UR  - https://doi.org/10.1890/06-1474
+VL  - 88
+IS  - 6
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-0188B90D
+TI  - SAMPLING DESIGN TRADE-OFFS IN OCCUPANCY STUDIES WITH IMPERFECT DETECTION: EXAMPLES AND SOFTWARE
+AU  - Larissa L. Bailey
+AU  - James E. Hines
+AU  - James D. Nichols
+AU  - Darryl I. MacKenzie
+PY  - 2007
+JO  - Ecological Applications
+DO  - 10.1890/1051-0761(2007)017[0281:sdtios]2.0.co;2
+UR  - https://doi.org/10.1890/1051-0761(2007)017%5B0281:sdtios%5D2.0.co;2
+VL  - 17
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-158D3CF0
+TI  - Site Occupancy Models with Heterogeneous Detection Probabilities
+AU  - J. Andrew Royle
+PY  - 2006
+JO  - Biometrics
+DO  - 10.1111/j.1541-0420.2005.00439.x
+UR  - https://doi.org/10.1111/j.1541-0420.2005.00439.x
+VL  - 62
+IS  - 1
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -
+
+TY  - JOUR
+ID  - WL-B0CB1FB2
+TI  - ESTIMATING SITE OCCUPANCY, COLONIZATION, AND LOCAL EXTINCTION WHEN A SPECIES IS DETECTED IMPERFECTLY
+AU  - Darryl I. MacKenzie
+AU  - James D. Nichols
+AU  - James E. Hines
+AU  - Melinda G. Knutson
+AU  - Alan B. Franklin
+PY  - 2003
+JO  - Ecology
+DO  - 10.1890/02-3090
+UR  - https://doi.org/10.1890/02-3090
+VL  - 84
+IS  - 8
+KW  - 2. Species data analysis and workflows
+N1  - Assessment: title_and_metadata_screened
+ER  -

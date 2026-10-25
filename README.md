@@ -4,7 +4,18 @@
 
 Wildlitics adalah aplikasi desktop Windows untuk membantu pengelolaan foto kamera trap, identifikasi satwa berbantuan AI, koreksi manusia, analisis biodiversitas, dan penyusunan laporan. Aplikasi dikembangkan oleh **Brian Martin** dengan memanfaatkan model dan pustaka pihak ketiga yang memperoleh kredit terpisah.
 
-Dokumentasi ini menjelaskan prototipe **2.3.3 Activity Diagrams**, dengan model SpeciesNet dan BioCLIP 2. Materi Wildlitics di repositori ini berupa **dokumentasi saja**, bukan kode aplikasi, installer, bobot model, atau data penelitian. Mengunduh atau melakukan clone repositori ini tidak memasang aplikasi.
+Dokumentasi aplikasi asli ini menjelaskan prototipe **2.3.3 Activity Diagrams**, dengan model SpeciesNet dan BioCLIP 2. Repositori ini juga memuat prototipe desktop baru yang independen, perangkat bantu eksperimen, dan kajian riset. Kode sumber aplikasi asli versi 2.3.3, bobot model, dan data penelitian pengguna tidak tersedia di sini. Mengunduh atau melakukan clone repositori ini tidak memasang aplikasi.
+
+## Pengembangan dan riset
+
+Pekerjaan eksperimen dan kajian riset kini tersedia bersama pada cabang pengembangan. Prototipe desktop baru dikembangkan secara terpisah; aplikasi asli versi 2.3.3 belum diperbarui dari cabang ini.
+
+[Wildlitics Desktop 0.1.0](desktop/README.md) adalah implementasi baru dengan sumber tersedia: impor banyak kamera, inferensi lokal SpeciesNet, review per objek, dan ekspor PDF/HTML/CSV. Prototipe ini memakai cascade resmi SpeciesNet dengan detektor MegaDetector v5a, berbeda dari konfigurasi MDV6 aplikasi asli yang didokumentasikan di bawah.
+
+- [Panduan pengembangan gabungan dan status pekerjaan](docs/development/README.md).
+- [Rencana pengembangan berdasarkan bukti riset](docs/development/OPEN_METHODS_PLAN.md).
+- [Perangkat bantu dataset, video, dan review SpeciesNet](experimental/data-tools/README.md).
+- [Paket riset: 200 artikel unik, masing-masing 100 rujukan per topik](docs/research/2026-10-24/README.md), termasuk [laporan PDF](docs/research/2026-10-24/Wildlitics-research-review.pdf).
 
 ## Fitur utama
 
@@ -90,4 +101,4 @@ Sebelum mendistribusikan kode, bobot, atau executable, periksa lisensi setiap ko
 
 Wildlitics bukan distribusi CameraSweet dan tidak mengklaim mereplikasi seluruh metodenya. Diagram aktivitas memakai implementasi deskriptif sederhana, bukan seluruh prosedur estimasi overlap atau pengujian statistik pada referensi.
 
-Dokumentasi versi 2.3.3, diperbarui **6 Oktober 2026**.
+Dokumentasi aplikasi versi 2.3.3, diperbarui **6 Oktober 2026**. Pengembangan eksperimen dan riset digabung pada **25 Oktober 2026**.
