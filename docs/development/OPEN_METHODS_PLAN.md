@@ -1,10 +1,10 @@
 # Wildlitics: open-method development plan
 
-Reviewed 24 October 2026. This document records the sources supplied by the developer, the decisions taken from them, and the boundary between implemented helpers and future application work.
+Updated 25 October 2026 after combining the experimental helpers and the 24 October research package. This is the unified implementation plan. The [development index](README.md) connects the code, evidence and status; the [research report](../research/2026-10-24/REPORT.md) remains a dated evidence snapshot.
 
 ## Scope and current status
 
-The public Wildlitics repository documents a Windows application using MegaDetector, SpeciesNet and BioCLIP 2. It does not contain the application source or trained private models. This change adds independent experimental helpers; it does not claim to update the installed Wildlitics application.
+The public Wildlitics repository documents a Windows application using MegaDetector, SpeciesNet and BioCLIP 2. This development branch contains independent experimental helpers and the research library. It does not contain the desktop application source or trained private models, and combining these materials does not update the installed application.
 
 The standalone open-method prototype built in the development session is separate from this repository. It includes BioCLIP 2/FAISS retrieval, a DINOv2 encoder option, GBIF caching, and local GLM-OCR/Qwen adapters. Its last completed software test run passed 76 tests; real DINOv2 and GBIF online/offline checks completed. Real GLM-OCR/Qwen validation and the updated prototype package remain pending after execution-environment interruptions. Those results are not a field-accuracy benchmark, and the separate prototype code is not bundled in this PR.
 
@@ -53,19 +53,21 @@ SpeciesNet package 5.0.6 uses per-detection output format `20261015`, while the 
 
 ## Development order and acceptance criteria
 
-### 1. Finish the standalone prototype package
+### 1. P0: establish the benchmark, review process and survey quality
 
-- Reproduce the software checks against its current source.
-- Complete a real local GLM-OCR transcription and Qwen evidence-table/report smoke test.
-- Record model digests, runtime versions and whether the run was local/offline.
-- Update setup instructions, source notices and the source ZIP together.
-- Keep synthetic smoke tests clearly separated from wildlife performance.
+- Obtain independent expert-labelled animals and reviewed backgrounds, with stable media/object IDs and documented class definitions.
+- Hold out sites/deployments and encounters before augmentation. Include day/night, partial or small animals, similar taxa and species outside the local catalogue.
+- Use the grouped exporter as preparation support, then audit group meaning and near-duplicates; byte hashes alone cannot establish independence.
+- Record raw predictions, failures, reviewer corrections and model versions. Add per-species confusion, day/night results, unresolved rates and random as well as targeted audits.
+- Measure detector box precision/recall, species classification on valid crops, and end-to-end species recall including missed animals. Record uncertainty using appropriate independent groups.
+- Audit operating intervals, downtime, clock/timezone corrections and processing coverage before ecological analysis.
+- Preserve raw and corrected timestamps and record who made each correction.
 
-Completion requires a working package and reproducible commands; adapters passing mocked service tests alone are insufficient for a claim of real-model validation.
+Acceptance requires a versioned benchmark and auditable survey inputs. Software test success and published study accuracy are separate from Wildlitics field performance. The [training-quality study](https://doi.org/10.1002/rse2.70052), [classification-bias study](https://doi.org/10.1111/2041-210x.70132) and [quality-control protocol](https://doi.org/10.1111/1365-2664.70010) motivate this priority; their limits are recorded in [KEY_EVIDENCE.md](../research/2026-10-24/KEY_EVIDENCE.md).
 
-### 2. Integrate dataset preparation and video intake
+### 2. P1: integrate the existing dataset, video and review helpers
 
-The helpers in this change are the starting implementation.
+The helpers in this branch are the starting implementation. Direct application integration requires the real desktop source and tested database/job-queue adapters.
 
 - Verify every export box against its oriented image.
 - Include multiple species/objects from a frame and explicitly reviewed background frames.
@@ -76,25 +78,50 @@ The helpers in this change are the starting implementation.
 - Carry exact selected-frame PTS into the observation record. File modification time is not capture time.
 - Retain source videos. Sparse sampling is not evidence that an animal was absent.
 - Cache completed extraction jobs by source hash and settings; changed/missing cached frames must invalidate reuse.
+- Preserve SpeciesNet raw candidates, processed suggestions, decision sources and taxonomic ranks. Legacy image-level suggestions and whole-image classifications must retain their original scope.
+- Show candidate/reference evidence, missing metadata and review status, and record reviewer, time and reason for corrections without replacing raw predictions.
+- Test recovery, cancellation and dependency installation on the target Windows environment.
 
-Application integration requires the real Wildlitics source and a tested adapter for its database and job queue.
+Acceptance requires preserved input hashes, correct per-object geometry, recoverable jobs and explicit observation states on representative projects. AI suggestions remain separate from human-confirmed observations.
 
-### 3. Add training and model comparison
+### 3. P1: compare local adaptation and calibrate review decisions
 
-Start with a frozen BioCLIP 2 or DINOv2 encoder plus a small trainable classifier head. Compare backbones on the same labelled crops. Full fine-tuning is optional after the smaller baseline is evaluated.
+Compare the existing model policy, frozen BioCLIP 2/DINOv2 local heads and optional SpeciesNet fine-tuning on the same labelled crops and holdouts. The [2026 SpeciesNet fine-tuning study](https://doi.org/10.1016/j.scitotenv.2026.181926) supports a local experiment; its balanced 15-species Australian evaluation does not establish Borneo accuracy or universal data requirements.
 
 - Partition by site/deployment/encounter before augmentation.
-- Use training data for fitting; validation data for hyperparameters, calibration and review thresholds; reserve the test set for the final comparison.
+- Use training data for fitting, validation data for model choices, and a separate calibration subset for score calibration and review-policy development. Reserve the test set for the final comparison.
 - Include day/night imagery, partial animals, difficult taxa, backgrounds and species outside the reference catalogue.
 - Measure per-class precision/recall/F1, macro metrics, confusion matrices, unresolved rates and retrieval recall where relevant.
 - Report uncertainty and sample/group counts.
 - Evaluate unknown-species rejection as its own task; a similarity cutoff is not automatically a validated unknown detector.
 - Benchmark elapsed time, throughput, peak memory and review time on the actual target Windows hardware.
 - Keep a model version inactive until an explicit activation step and reproducible evaluation.
+- Save full classifier logits where available and evaluate reliability, Brier score/log loss and risk/coverage. Do not derive a full-distribution temperature-scaling calculation from top-k-only output or interpret raw FAISS cosine scores as calibrated probabilities.
+- Compare expert-review time, corrections and false rare-species positives in addition to average classification metrics.
 
-Kunci's [training guide](https://kunci.biodiversitas.id/panduan/en/latih-ai.html) and the [orchid research paper](https://arxiv.org/abs/2609.24064) describe related methods, not evidence of Borneo camera-trap accuracy.
+Acceptance requires a paired comparison with reproducible inputs, class/group counts, calibration provenance and results for priority taxa. The [camera-trap calibration study](https://doi.org/10.1002/rse2.412) informs the experiment. Kunci's [training guide](https://kunci.biodiversitas.id/panduan/en/latih-ai.html) and [orchid research](https://arxiv.org/abs/2609.24064) remain related-task references.
 
-### 4. Complete species-data and document assistance
+### 4. P1/P2: connect reviewed observations to validated ecological methods
+
+- Export linked deployment, media and observation records against a pinned [Camtrap DP](https://doi.org/10.1002/rse2.374) schema, and provide camtrapR-compatible record tables and camera-operation matrices.
+- Distinguish observed presence maps from formal occupancy inference. Build repeated-occasion histories using qualifying detections, operational nondetections and unsampled/inactive or insufficiently processed occasions as distinct states.
+- Keep encounter separation, occupancy occasion width and activity sampling units in separate settings and record them with every result.
+- Preserve raw activity records and offer justified filter sensitivity comparisons. [Peral et al.](https://doi.org/10.1002/ece3.9408) and [Smith](https://doi.org/10.1007/s00265-024-03544-6) provide conflicting evidence about independence filters; neither a fixed 30-minute nor a fixed 60-minute rule is accepted as universal.
+- Add circular overlap and uncertainty, plus incidence-based diversity/sample-coverage comparisons, checking numerical agreement with pinned reference implementations.
+- Retain descriptive activity charts and label any additional activity-level estimator with its own assumptions.
+- Evaluate a local R adapter or compatible exports using the [camtrapR version 3 workflow](https://doi.org/10.1111/2041-210x.70409), published online on 21 October 2026.
+- Introduce single-species occupancy before community models; require fit/autocorrelation checks and, where applicable, convergence and posterior predictive diagnostics.
+- Compare AI- and expert-derived ecological outputs, especially rare species and low-precision classes. Promising agreement in [Thornton et al.](https://doi.org/10.1111/1365-2664.70370) is evidence for testing, not automatic permission to skip local validation.
+- Defer density/individual-ID outputs until their survey design, movement/geometry or identity inputs and validation are available.
+
+Acceptance requires reproducible exports, documented effort and assumptions, numerical comparison with reference workflows, and an ecological agreement assessment. The [research report](../research/2026-10-24/REPORT.md) and [priority evidence notes](../research/2026-10-24/KEY_EVIDENCE.md) provide the supporting methods and limitations.
+
+### 5. P2: finish the separate prototype and document/taxonomy assistance
+
+- Reproduce the separate prototype's software checks against its current source.
+- Complete a real local GLM-OCR transcription and Qwen evidence-table/report smoke test.
+- Record model digests, runtime versions and whether the run was local/offline.
+- Update setup instructions, source notices and the source ZIP together, retaining the distinction between synthetic checks and wildlife performance.
 
 - GBIF: cache original responses, retrieval dates, accepted-name/synonym suggestions and stale/offline status. Never overwrite reviewed labels automatically. A name-match score is not identification confidence, and GBIF matching does not replace the chosen IUCN reference.
 - GLM-OCR: prefer readable PDF text layers, otherwise transcribe rendered pages locally. Preserve source file hash, page number, extracted text and failed-page status.
@@ -102,18 +129,9 @@ Kunci's [training guide](https://kunci.biodiversitas.id/panduan/en/latih-ai.html
 - Qwen report drafting: calculate numerical summaries in application code. AI prose is an editable draft tied to those facts, with no invented population/absence/trend conclusions.
 - Keep extracted literature records separate from verified camera-trap observations until a reviewer accepts them.
 
-### 5. Improve review and data quality
+Acceptance requires a working package, actual local-model validation and reproducible commands. Adapters passing fixture-service tests alone do not establish real-model validation. This work can proceed alongside the benchmark when it does not depend on field data.
 
-- Show model version, crop association, candidate names and reference-photo credits.
-- Show SpeciesNet's raw candidates separately from its geographically filtered/rolled-up class and decision source. Preserve whole-image results as whole-image results.
-- Provide filters for unresolved/conflicting predictions and missing metadata.
-- Preserve raw predictions when users correct labels.
-- Record reviewer, timestamp and reason for a change.
-- Check names, duplicate media, missing coordinates/dates and incomplete photo credits.
-- Export model suggestions and human-confirmed observations as distinct statuses.
-- Count reviewed encounters according to documented rules; prediction counts are not individual animals.
-
-### 6. Optimise only after a baseline is measured
+### 6. P2/P3: optimise after measuring a baseline, then assess new tasks
 
 - Load a model once per worker and reuse existing BioCLIP embeddings where preprocessing and weights match.
 - Cache features by image/crop hash, model revision and preprocessing identity.
@@ -122,6 +140,11 @@ Kunci's [training guide](https://kunci.biodiversitas.id/panduan/en/latih-ai.html
 - Compare PyTorch, ONNX Runtime and optional GPU deployment with matched preprocessing and output-equivalence checks.
 - Validate FP16/quantisation effects on difficult classes, not just speed.
 - Package model weights, class mapping, preprocessing, calibration, provenance, metrics and licence notices together.
+- Test copy-paste augmentation or learned sequence/crop context with separate ablations and real mixed-species cases; preserve individual objects and split provenance.
+- Evaluate assisted annotation, including optional SAM2, with a human correction gate and checked component terms.
+- Treat individual-ID, density, aerial images and audio as separately validated use cases. The [community watch](../research/2026-10-24/COMMUNITY_UPDATES.md) is a source of candidates rather than verified Wildlitics improvements.
+
+Acceptance requires a measured quality/runtime/reviewer-effort tradeoff on the target hardware and a reproducible activation/rollback path.
 
 ## Shared records
 
